@@ -1,2 +1,2 @@
 # kelompok2
-anugrah yang tidak kerja
+semua anggota kelompok ini PEMALAS
