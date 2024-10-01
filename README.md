@@ -1,2 +1,2 @@
 # kelompok2
- test
+anugrah yang tidak kerja
