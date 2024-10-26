@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("mtq.jpg") no-repeat ;
+    background-position: center;
+    background-size: 100%;
+    background-size: cover;
+    position: relative; /* Penambahan posisi relatif untuk konten absolute */
+}
+
+
+h3 {
+    font-size: 25px;
+    text-align: center;
+    size: 100px;
+    position: absolute;
+    top: 27%;
+    right: 100; /* Mengatur posisi ke samping */
+    transform: translateY(-50%);
+    height: auto; /* Biarkan tinggi gambar menyesuaikan proporsi */
+}
+h4 {
+    font-size: 50px;
+    text-align: center;
+    size: 100px;
+    position: absolute;
+    top: 35%;
+    right: 100; /* Mengatur posisi ke samping */
+    transform: translateY(-50%);
+    height: auto; /* Biarkan tinggi gambar menyesuaikan proporsi */
+    padding-bottom: 2%;
+}
+.login-image {
+    size: 100px;
+    position: absolute;
+    top: 15%;
+    right: 100; /* Mengatur posisi ke samping */
+    transform: translateY(-50%);
+    width: 100px; /* Sesuaikan lebar gambar */
+    height: auto; /* Biarkan tinggi gambar menyesuaikan proporsi */
+  
+}
+
+.wrapper {
+    margin-top: 20%;
+    width: 400px;
+    background: transparent;
+    border: 2px solid rgba(225, 225, 225, 0.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    position: relative;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    padding-right: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(225, 225, 225, 0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    padding: 0px 0px 0px 20px;
+    color: aliceblue;
+}
+
+.input-box input::placeholder {
+    color: #fff;
+}
+
+.input-box i {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #fff;
+}
+
+/* Menyesuaikan warna ikon mata menjadi putih */
+.input-box input[type="password"] + .bx {
+    color: #fff;
+}
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px0;
+}
+
+.remember-forgot label input {
+    accent-color: #fff;
+    margin-right: 3px;
+}
+
+.remember-forgot a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover{
+    text-decoration : underline;
+}
+
+.btn {
+    margin-top: 10px;
+    justify-content: center;
+    width: 100%;
+    height: 45px;
+    background: #000000;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.register-link {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.register-link p a {
+    color: #060af6;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+}
+
