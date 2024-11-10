@@ -44,9 +44,14 @@ $routes->post('auth/register/save', 'Auth::save'); // Memproses penyimpanan data
 // Rute untuk halaman lupa password
 $routes->get('forgot-password', 'Auth::forgotPassword'); // Ganti dengan metode yang sesuai di Auth
 
+$routes->get('chat', 'ChatController::index');
+$routes->post('chat/send', 'ChatController::sendMessage');
+$routes->get('chat/messages/(:num)/(:num)', 'ChatController::getMessages/$1/$2');
+
+
 
 // Rute 404
-$routes->set404Override(function() {
+$routes->set404Override(function () {
     $message = 'The page you are looking for does not exist.'; // Pesan kesalahan kustom
     echo view('errors/html/error_404', ['message' => $message]);
 });
