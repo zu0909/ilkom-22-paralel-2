@@ -1,112 +1,44 @@
 <!DOCTYPE html>
-<html>
-<head> 
-    <title>Sign Up</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <style>
-        body {
-            background-color: #000;
-            color: #fff;
-            font-family: sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-        }
-        
-
-        .logo {
-            width: 100px;
-            height: 100px;
-            margin-bottom: 20px;
-        }
-
-        .logo img {
-            width: 100%;
-            height: 100%;
-        }
-
-        .form-container {
-            display: flex;
-            flex-direction: column;
-            width: 300px;
-        }
-
-        input[type="text"], input[type="password"] {
-            padding: 10px;
-            margin-bottom: 10px;
-            border: none;
-            border-radius: 5px;
-            background-color: #111;
-            color: #fff;
-        }
-
-        button {
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            background-color: #333;
-            color: #fff;
-            cursor: pointer;
-        }
-
-        a {
-            color: #fff;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tellme</title>
+    <link rel="stylesheet" href="styleRegist.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <div class="container">
-    <div class="row justify-content-center" style="margin-top:100px">
-            <div class="col-md-4 col-md-offset-4">
-                <h4 class="text-center">Sign Up</h4><hr>
-                <form action="<?= site_url('auth/save'); ?>" method="post">
-                    <?= csrf_field(); ?>
-                    <?php if (session()->getFlashdata('success')): ?>
-                        <div class="alert alert-success">
-                            <?= session()->getFlashdata('success') ?>
-                        </div>
-                    <?php endif; ?>
-                    <?php if (session()->getFlashdata('fail')): ?>
-                        <div class="alert alert-danger">
-                            <?= session()->getFlashdata('fail') ?>
-                        </div>
-                    <?php endif; ?>
-                    <div class="form-group">
-                        <label for="username">User name</label>
-                        <input type="text" class="form-control" name="username" placeholder="Enter your name" value="<?php set_value('username"'); ?>">
-                        <span class="text-danger"><?= isset($validation) ? display_error($validation, 'username"') : '' ?></span>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="text" class="form-control" name="email" placeholder="Enter your email" value="<?php set_value('email'); ?>">
-                        <span class="text-danger"><?= isset($validation) ? display_error($validation, 'email') : '' ?></span>
-                    </div>
-                    <div class="form-group">
-                        <label for="password">Password</label>
-                        <input type="text" class="form-control" name="password" placeholder="Enter password" value="<?php set_value('password'); ?>">
-                        <span class="text-danger"><?= isset($validation) ? display_error($validation, 'password') : '' ?></span>
-                    </div>
-                    <div class="form-group">
-                        <label for="password">Confirm Password</label>
-                        <input type="text" class="form-control" name="CPassword" placeholder="Enter Confirm Password" value="<?php set_value('CPassword'); ?>">
-                        <span class="text-danger"><?= isset($validation) ? display_error($validation, 'CPassword') : '' ?></span>
-                    </div>
-                    <div class="form-group">
-                        <button class="btn btn-primary btn-block" type="submit">Sign Up</button>
-                    </div>
-                    <br>
-                    <a href="<?= site_url('auth') ?>">I alredy have acount, login now</a>
-                </form>
+    <img src="Telmewq2.png" alt="Left Image" class="left-image">
+    <h1>Regist</h1>
+    <h2>Start TELLing ME what you like..</h2>
+
+    <div class="wrapper">
+        <form action="<?= site_url('auth/regist') ?>" method="post">
+            
+            <div class="input-box">
+                <input type="text" name="username" placeholder="Username" required>
+                <i class='bx bx-user'></i>
             </div>
-        </div>
+
+            <div class="input-box">
+                <input type="email" name="email" placeholder="Email" required>
+                <i class='bx bx-envelope'></i>
+            </div>
+
+            <div class="input-box">
+                <input type="password" name="password" placeholder="Masukkan Password" required>
+                <i class='bx bx-lock'></i>
+            </div>
+
+            <div class="input-box">
+                <input type="password" name="confirm_password" placeholder="Konfirmasi Password" required>
+                <i class='bx bx-lock'></i>
+            </div>
+            
+            
+            <button type="submit" class="btn">Daftar</button>
+        </form>
+    
     </div>
 </body>
 </html>
