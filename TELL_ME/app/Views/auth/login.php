@@ -3,91 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <style>
-        body {
-            background-color: #000;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            color: #fff;
-            font-family: Arial, sans-serif;
-        }
-
-        .login-container {
-            text-align: center;
-        }
-
-        .login-container img {
-            width: 100px;
-            margin-bottom: 20px;
-        }
-
-        h2 {
-            font-size: 1.5rem;
-            margin-bottom: 1rem;
-        }
-
-        .input-field {
-            background: none;
-            border: 1px solid #555;
-            padding: 10px;
-            width: 100%;
-            max-width: 300px;
-            margin-bottom: 1rem;
-            color: #fff;
-            border-radius: 5px;
-        }
-
-        .btn {
-            background-color: #666;
-            padding: 10px 20px;
-            border: none;
-            color: #fff;
-            cursor: pointer;
-            border-radius: 5px;
-            width: 100%;
-            max-width: 300px;
-        }
-
-        .btn:hover {
-            background-color: #888;
-        }
-
-        .links {
-            margin-top: 1rem;
-            font-size: 0.9rem;
-        }
-
-        .links a {
-            color: #ccc;
-            text-decoration: none;
-        }
-
-        .links a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <title>Tellme</title>
+    <link rel="stylesheet" href="<?= base_url('css/styleLogin.css') ?>">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
+    <img src="<?= base_url('images/bitmap.png') ?>" class="login-image">
+    <img src="<?= base_url('images/Telmewq2.png') ?>" alt="Left Image" class="left-image">
+    <h1>Login</h1>
+    <h2>Tell everything you want.</h2>
 
-<div class="login-container">
-    <img src="/bootstrap/logo1.jpeg" alt="Logo">
-    <h5 style="margin-top: 1px;">Tell Everything you want</h5>
-    <h2>TELL ME</h2>
-    <form action="<?= site_url('auth/login') ?>" method="post">
-    <input type="text" name="username" class="input-field" placeholder="Username" required>
-    <input type="password" name="password" class="input-field" placeholder="Password" required>
-    <button type="submit" class="btn">Sign In</button>
-    </form>
-
-    <div class="links">
-    <p>Don't have an account? <a href="<?= site_url('auth/register') ?>">Create an account</a></p>
-    <p><a href="<?= site_url('/forgot-password') ?>">Forgot password?</a></p>
-</div>
-</div>
-
+    <div class="wrapper">
+        <form action="<?= site_url('auth/login') ?>" method="post">
+            
+            <div class="input-box">
+                <input type="text" name="username" placeholder="Username" required>
+                <i class='bx bx-user'></i>
+            </div>
+            <div class="input-box">
+                <input type="password" name="password" placeholder="Masukkan Password" required>
+            </div>
+            <div class="remember-forgot">
+                <label><input type="checkbox">Ingat Saya</label>
+                <a href="<?= site_url('/forgot-password') ?>">Lupa Password?</a>
+            </div>
+            <button type="submit" class="btn">Masuk</button>
+        </form>
+        <div class="link">
+            <p>Belum punya akun? <a href="<?= site_url('auth/register') ?>">Sign up</a></p>
+        </div>
+    </div>
 </body>
 </html>

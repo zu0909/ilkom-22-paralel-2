@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tellme</title>
-    <link rel="stylesheet" href="styleRegist.css">
+    <link rel="stylesheet" href="<?= base_url('css/styleRegist.css') ?>">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <img src="Telmewq2.png" alt="Left Image" class="left-image">
+    <img src="<?= base_url('images/Telmewq2.png') ?>" alt="Left Image" class="left-image">
     <h1>Regist</h1>
     <h2>Start TELLing ME what you like..</h2>
 
