@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tellme</title>
-    <link rel="stylesheet" href="<?= base_url('css/styleLogin.css') ?>">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="<?= base_url('bootstrap/css/stylelogin.css') ?>">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
 </head>
 <body>
     <img src="<?= base_url('images/bitmap.png') ?>" class="login-image">
@@ -15,21 +15,21 @@
 
     <div class="wrapper">
         <form action="<?= site_url('auth/login') ?>" method="post">
-            
             <div class="input-box">
                 <input type="text" name="username" placeholder="Username" required>
                 <i class='bx bx-user'></i>
             </div>
             <div class="input-box">
                 <input type="password" name="password" placeholder="Masukkan Password" required>
+                <i class='bx bx-lock'></i>
             </div>
             <div class="remember-forgot">
-                <label><input type="checkbox">Ingat Saya</label>
-                <a href="<?= site_url('/forgot-password') ?>">Lupa Password?</a>
+                <label><input type="checkbox"> Ingat Saya</label>
+                <a href="<?= site_url('auth/forgotPassword') ?>">Lupa Password?</a>
             </div>
             <button type="submit" class="btn">Masuk</button>
         </form>
-        <div class="link">
+        <div class="register-link">
             <p>Belum punya akun? <a href="<?= site_url('auth/register') ?>">Sign up</a></p>
         </div>
     </div>
