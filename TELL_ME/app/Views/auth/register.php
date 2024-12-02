@@ -6,39 +6,67 @@
     <title>Tellme</title>
     <link rel="stylesheet" href="<?= base_url('bootstrap/css/styleRegist.css') ?>">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
+
     <img src="<?= base_url('images/Telmewq2.png') ?>" alt="Left Image" class="left-image">
-    <h1>Regist</h1>
-    <h2>Start TELLing ME what you like..</h2>
+    <h1 class="text-center">Regist</h1>
+    <h2 class="text-center">Start TELLing ME what you like..</h2>
 
-    <div class="wrapper">
-        <form action="<?= site_url('auth/regist') ?>" method="post">
-            
-            <div class="input-box">
-                <input type="text" name="username" placeholder="Username" required>
-                <i class='bx bx-user'></i>
-            </div>
+    <div class="container">
+        <div class="row justify-content-center" style="margin-top:100px">
+            <div class="col-md-4 col-md-offset-4">
+                <h4 class="text-center">Sign Up</h4><hr>
+                <form action="<?= site_url('auth/regist') ?>" method="post">
+                    <?= csrf_field(); ?>
 
-            <div class="input-box">
-                <input type="email" name="email" placeholder="Email" required>
-                <i class='bx bx-envelope'></i>
-            </div>
+                    <?php if (session()->getFlashdata('success')): ?>
+                        <div class="alert alert-success">
+                            <?= session()->getFlashdata('success') ?>
+                        </div>
+                    <?php endif; ?>
 
-            <div class="input-box">
-                <input type="password" name="password" placeholder="Masukkan Password" required>
-                <i class='bx bx-lock'></i>
-            </div>
+                    <?php if (session()->getFlashdata('fail')): ?>
+                        <div class="alert alert-danger">
+                            <?= session()->getFlashdata('fail') ?>
+                        </div>
+                    <?php endif; ?>
 
-            <div class="input-box">
-                <input type="password" name="confirm_password" placeholder="Konfirmasi Password" required>
-                <i class='bx bx-lock'></i>
+                    <div class="form-group">
+                        <label for="username">User name</label>
+                        <input type="text" class="form-control" name="username" placeholder="Enter your name" value="<?php set_value('username'); ?>">
+                        <span class="text-danger"><?= isset($validation) ? display_error($validation, 'username') : '' ?></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" name="email" placeholder="Enter your email" value="<?php set_value('email'); ?>">
+                        <span class="text-danger"><?= isset($validation) ? display_error($validation, 'email') : '' ?></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" name="password" placeholder="Enter password" value="<?php set_value('password'); ?>">
+                        <span class="text-danger"><?= isset($validation) ? display_error($validation, 'password') : '' ?></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="CPassword">Confirm Password</label>
+                        <input type="password" class="form-control" name="CPassword" placeholder="Confirm Password" value="<?php set_value('CPassword'); ?>">
+                        <span class="text-danger"><?= isset($validation) ? display_error($validation, 'CPassword') : '' ?></span>
+                    </div>
+
+                    <div class="form-group">
+                        <button class="btn btn-primary btn-block" type="submit">Sign Up</button>
+                    </div>
+
+                    <br>
+                    <a href="<?= site_url('auth') ?>">I already have an account, login now</a>
+                </form>
             </div>
-            
-            
-            <button type="submit" class="btn">Daftar</button>
-        </form>
-    
+        </div>
     </div>
+
 </body>
 </html>
