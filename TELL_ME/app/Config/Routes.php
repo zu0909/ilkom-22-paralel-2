@@ -31,7 +31,7 @@ $routes->setAutoRoute(true);
  */
 
 // Rute untuk halaman utama
-$routes->get('/', 'Home::index');
+$routes->get('/', 'Auth::index');
 
 // Rute untuk halaman login
 $routes->get('auth/login', 'Auth::index'); // Menampilkan halaman login

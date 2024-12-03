@@ -16,6 +16,36 @@ class Auth extends Controller
     {
         return view('auth/register');
     }
+    public function login()
+    {
+    $session = session();
+    $email = $this->request->getPost('email'); // Mengambil email dari form login
+    $password = $this->request->getPost('password'); // Mengambil password dari form login
+
+    // Load model untuk tabel user
+    $userModel = new \App\Models\UserModel();
+
+    // Cari data user berdasarkan email
+    $user = $userModel->where('email', $email)->first();
+
+    // Jika user ditemukan dan password cocok
+    if ($user && password_verify($password, $user['password'])) {
+        // Set session dengan data user
+        $session->set([
+            'user_id' => $user['id'],
+            'username' => $user['username'],
+            'isLoggedIn' => true,
+        ]);
+
+        // Redirect ke halaman beranda
+        return redirect()->to('/beranda');
+    }
+
+    // Jika login gagal
+    $session->setFlashdata('error', 'Email atau password salah.');
+    return redirect()->to('auth/login');
+    }
+
     public function save() {
         // Validasi input
         $validation = $this->validate([
