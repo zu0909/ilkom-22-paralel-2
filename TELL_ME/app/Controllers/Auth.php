@@ -1,62 +1,107 @@
 <?php namespace App\Controllers;
 
 use CodeIgniter\Controller;
+use App\Models\UserModel;
 
 class Auth extends Controller
 {
-    public function __construct(){
+    public function __construct()
+    {
         helper(['url', 'form']);
     }
-    
-    public function Index()
+
+    public function index()
     {
-       return view ('auth/login');
+        return view('auth/login');
     }
+
     public function register()
     {
         return view('auth/register');
     }
+
     public function login()
     {
-    $session = session();
-    $email = $this->request->getPost('email'); // Mengambil email dari form login
-    $password = $this->request->getPost('password'); // Mengambil password dari form login
+        $session = session();
+        $username = $this->request->getPost('username');
+        $password = $this->request->getPost('password');
 
-    // Load model untuk tabel user
-    $userModel = new \App\Models\UserModel();
+        $userModel = new UserModel();
+        $user = $userModel->where('username', $username)->first();
 
-    // Cari data user berdasarkan email
-    $user = $userModel->where('email', $email)->first();
+        if ($user && password_verify($password, $user['password'])) {
+            // Simpan data pengguna ke dalam session
+            $session->set([
+                'username' => $user['username'],
+                'email' => $user['email'],
+                'isLoggedIn' => true,
+            ]);
 
-    // Jika user ditemukan dan password cocok
-    if ($user && password_verify($password, $user['password'])) {
-        // Set session dengan data user
-        $session->set([
-            'user_id' => $user['id'],
-            'username' => $user['username'],
-            'isLoggedIn' => true,
-        ]);
+            return redirect()->to('/auth/dashboard');
+        }
 
-        // Redirect ke halaman beranda
-        return redirect()->to('/beranda');
+        $session->setFlashdata('error', 'Username atau password salah.');
+        return redirect()->to('/auth/login');
     }
 
-    // Jika login gagal
-    $session->setFlashdata('error', 'Email atau password salah.');
-    return redirect()->to('auth/login');
+    public function dashboard()
+    {
+        // Cek jika pengguna sudah login
+        $session = session();
+        if (!$session->get('isLoggedIn')) {
+            return redirect()->to('/auth/login');
+        }
+
+        // Ambil data pengguna dari session
+        $data = [
+            'username' => $session->get('username'),
+            'email' => $session->get('email')
+        ];
+
+        // Tampilkan view dashboard dengan data pengguna
+        return view('auth/ds', $data);
     }
 
-    public function save() {
-        // Validasi input
+    public function Profile()
+    {
+        // Data pengguna (dapat diganti dengan data dari database)
+        return view('profile/index');
+    }
+
+    public function notif()
+    {
+        // Data notifikasi (contoh statis, bisa diganti dengan data dari database)
+        $notifications = [
+            [
+                'message' => 'John Doe liked your post.',
+                'time' => '2h',
+            ],
+            [
+                'message' => 'Your profile was viewed 10 times today.',
+                'time' => '5h',
+            ],
+            [
+                'message' => 'You have a new follower: Jane Smith.',
+                'time' => '1d',
+            ],
+        ];
+
+        // Kirim data ke view
+        return view('notifications', compact('notifications'));
+    }
+
+    public function save()
+    {
         $validation = $this->validate([
             'username' => [
-                'rules' => 'required',
+                'rules' => 'required|is_unique[users.username]',
                 'errors' => [
-                    'required' => 'Your full name is required'
+                    'required' => 'Username is required',
+                    'is_unique' => 'Username already taken'
                 ]
             ],
             'email' => [
-                'rules' => 'required|valid_email|is_unique[user.email]',
+                'rules' => 'required|valid_email|is_unique[users.email]',
                 'errors' => [
                     'required' => 'Email is required',
                     'valid_email' => 'You must enter a valid email',
@@ -81,25 +126,23 @@ class Auth extends Controller
                 ]
             ],
         ]);
-    
+
         if (!$validation) {
             return view("auth/register", ['validation' => $this->validator]);
         } else {
-            // Mengambil data dari form
             $username = $this->request->getPost("username");
             $email = $this->request->getPost('email');
             $password = $this->request->getPost("password");
-    
-            // Hash password
+
             $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
-    
+
             $values = [
                 'username' => $username,
                 'email' => $email,
                 'password' => $hashedPassword,
             ];
-    
-            $userModel = new \App\Models\UserModel();
+
+            $userModel = new UserModel();
             $query = $userModel->insert($values);
             if (!$query) {
                 return redirect()->back()->with('fail', 'Something went wrong');
@@ -107,5 +150,11 @@ class Auth extends Controller
                 return redirect()->to('auth/register')->with('success', "You are now registered successfully");
             }
         }
+    }
+
+    public function logout()
+    {
+        session()->destroy();
+        return redirect()->to('/auth/login');
     }
 }

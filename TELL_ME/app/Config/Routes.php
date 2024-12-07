@@ -32,23 +32,13 @@ $routes->setAutoRoute(true);
 
 // Rute untuk halaman utama
 $routes->get('/', 'Auth::index');
-
-// Rute untuk halaman login
-$routes->get('auth/login', 'Auth::index'); // Menampilkan halaman login
-$routes->post('auth/login', 'Auth::login'); // Memproses login
-
-// Rute untuk halaman register
-$routes->get('auth/register', 'Auth::register'); // Menampilkan halaman register
-$routes->post('auth/register/save', 'Auth::save'); // Memproses penyimpanan data register
-
-// Rute untuk halaman lupa password
-$routes->get('forgot-password', 'Auth::forgotPassword'); // Ganti dengan metode yang sesuai di Auth
-
-$routes->get('chat', 'ChatController::index');
-$routes->post('chat/send', 'ChatController::sendMessage');
-$routes->get('chat/messages/(:num)/(:num)', 'ChatController::getMessages/$1/$2');
-
-
+$routes->get('/auth/login', 'Auth::login');
+$routes->post('/auth/login', 'Auth::login');
+$routes->get('/auth/register', 'Auth::register');
+$routes->post('/auth/register', 'Auth::save');
+$routes->get('/auth/dashboard', 'Auth::dashboard');
+$routes->get('/auth/logout', 'Auth::logout');
+$routes->get('profile/index', 'Auth::Profile');
 
 // Rute 404
 $routes->set404Override(function () {
@@ -56,6 +46,10 @@ $routes->set404Override(function () {
     echo view('errors/html/error_404', ['message' => $message]);
 });
 
+// --------------------------------------------------------------------
+// Additional Routing
+// --------------------------------------------------------------------
+// You can add additional routes here if needed
 // --------------------------------------------------------------------
 // Additional Routing
 // --------------------------------------------------------------------
