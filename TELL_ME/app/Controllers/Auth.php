@@ -69,11 +69,6 @@ class Auth extends Controller
     }
 
 
-    public function Profile()
-    {
-        // Data pengguna (dapat diganti dengan data dari database)
-        return view('profile/index');
-    }
 
     public function notif()
     {
@@ -94,7 +89,7 @@ class Auth extends Controller
         ];
 
         // Kirim data ke view
-        return view('notifications', compact('notifications'));
+        return view('notif/index', compact('notifications'));
     }
 
     public function save()

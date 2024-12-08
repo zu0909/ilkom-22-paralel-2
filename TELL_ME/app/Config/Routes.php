@@ -38,7 +38,8 @@ $routes->get('/auth/register', 'Auth::register');
 $routes->post('/auth/register', 'Auth::save');
 $routes->get('/auth/ds', 'Auth::dashboard');
 $routes->get('/auth/logout', 'Auth::logout');
-$routes->get('profile/index', 'Auth::Profile');
+$routes->get('profile/index', 'Profile::index');
+$routes->get('notif/index', 'Auth::notif');
 
 // Rute 404
 $routes->set404Override(function () {
