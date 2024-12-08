@@ -36,7 +36,7 @@ $routes->get('/auth/login', 'Auth::login');
 $routes->post('/auth/login', 'Auth::login');
 $routes->get('/auth/register', 'Auth::register');
 $routes->post('/auth/register', 'Auth::save');
-$routes->get('/auth/dashboard', 'Auth::dashboard');
+$routes->get('/auth/ds', 'Auth::dashboard');
 $routes->get('/auth/logout', 'Auth::logout');
 $routes->get('profile/index', 'Auth::Profile');
 

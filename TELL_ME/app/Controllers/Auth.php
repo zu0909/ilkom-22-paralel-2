@@ -12,8 +12,14 @@ class Auth extends Controller
 
     public function index()
     {
-        return view('auth/login');
+        $session = session();
+        if ($session->get('isLoggedIn')) {
+            return redirect()->to('auth/ds'); // Jika login, arahkan ke dashboard
+        }
+
+        return view('auth/login'); // Jika belum login, tampilkan halaman login
     }
+
 
     public function register()
     {
@@ -37,30 +43,31 @@ class Auth extends Controller
                 'isLoggedIn' => true,
             ]);
 
-            return redirect()->to('/auth/dashboard');
-        }
-
-        $session->setFlashdata('error', 'Username atau password salah.');
-        return redirect()->to('/auth/login');
+            return redirect()->to('auth/ds');
     }
+
+        // Hanya tampilkan flash data tanpa loop redirect
+        $session->setFlashdata('error', 'Username atau password salah.');
+        return view('auth/login'); // Render ulang form login tanpa redirect
+    }
+
 
     public function dashboard()
     {
-        // Cek jika pengguna sudah login
         $session = session();
         if (!$session->get('isLoggedIn')) {
-            return redirect()->to('/auth/login');
+        // Redirect hanya jika pengguna belum login
+         return redirect()->to('auth/login');
         }
 
-        // Ambil data pengguna dari session
         $data = [
             'username' => $session->get('username'),
             'email' => $session->get('email')
         ];
 
-        // Tampilkan view dashboard dengan data pengguna
         return view('auth/ds', $data);
     }
+
 
     public function Profile()
     {
@@ -94,14 +101,14 @@ class Auth extends Controller
     {
         $validation = $this->validate([
             'username' => [
-                'rules' => 'required|is_unique[users.username]',
+                'rules' => 'required|is_unique[user.username]',
                 'errors' => [
                     'required' => 'Username is required',
                     'is_unique' => 'Username already taken'
                 ]
             ],
             'email' => [
-                'rules' => 'required|valid_email|is_unique[users.email]',
+                'rules' => 'required|valid_email|is_unique[user.email]',
                 'errors' => [
                     'required' => 'Email is required',
                     'valid_email' => 'You must enter a valid email',
@@ -155,6 +162,6 @@ class Auth extends Controller
     public function logout()
     {
         session()->destroy();
-        return redirect()->to('/auth/login');
+        return redirect()->to('auth/login');
     }
 }
