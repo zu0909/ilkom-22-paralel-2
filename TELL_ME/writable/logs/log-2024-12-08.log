@@ -203,3 +203,107 @@ INFO - 2024-12-08 02:53:40 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2024-12-08 02:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-12-08 03:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-12-08 03:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 14:19:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 14:19:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 14:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-08 14:20:01 --> ErrorException: Undefined variable $user
+[Method: GET, Route: profile]
+in APPPATH\Views\profile\index.php on line 6.
+ 1 APPPATH\Views\profile\index.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\Users\\My ASUS\\OneDrive\\Documents\\TUGAS BEsar KOmputasi\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\index.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\My ASUS\\OneDrive\\Documents\\TUGAS BEsar KOmputasi\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('profile/index', [], true)
+ 5 APPPATH\Controllers\Profile.php(13): view('profile/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\My ASUS\\OneDrive\\Documents\\TUGAS BEsar KOmputasi\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-08 14:20:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 14:20:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 14:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-08 14:26:54 --> ErrorException: Undefined variable $user
+[Method: GET, Route: profile/index]
+in APPPATH\Views\profile\index.php on line 6.
+ 1 APPPATH\Views\profile\index.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\Users\\My ASUS\\OneDrive\\Documents\\TUGAS BEsar KOmputasi\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\index.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\My ASUS\\OneDrive\\Documents\\TUGAS BEsar KOmputasi\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('profile/index', [], true)
+ 5 APPPATH\Controllers\Profile.php(13): view('profile/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\My ASUS\\OneDrive\\Documents\\TUGAS BEsar KOmputasi\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-08 14:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 14:27:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-08 14:27:00 --> ErrorException: Undefined variable $user
+[Method: GET, Route: profile]
+in APPPATH\Views\profile\index.php on line 6.
+ 1 APPPATH\Views\profile\index.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\Users\\My ASUS\\OneDrive\\Documents\\TUGAS BEsar KOmputasi\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\index.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\My ASUS\\OneDrive\\Documents\\TUGAS BEsar KOmputasi\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('profile/index', [], true)
+ 5 APPPATH\Controllers\Profile.php(13): view('profile/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\My ASUS\\OneDrive\\Documents\\TUGAS BEsar KOmputasi\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-08 14:27:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-08 14:27:16 --> ErrorException: Undefined variable $user
+[Method: GET, Route: profile]
+in APPPATH\Views\profile\index.php on line 6.
+ 1 APPPATH\Views\profile\index.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\Users\\My ASUS\\OneDrive\\Documents\\TUGAS BEsar KOmputasi\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\index.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\My ASUS\\OneDrive\\Documents\\TUGAS BEsar KOmputasi\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('profile/index', [], true)
+ 5 APPPATH\Controllers\Profile.php(13): view('profile/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\My ASUS\\OneDrive\\Documents\\TUGAS BEsar KOmputasi\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-08 14:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 14:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-08 14:36:33 --> ErrorException: Undefined variable $user
+[Method: GET, Route: profile]
+in APPPATH\Views\profile\index.php on line 6.
+ 1 APPPATH\Views\profile\index.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\Users\\My ASUS\\OneDrive\\Documents\\TUGAS BEsar KOmputasi\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\index.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\My ASUS\\OneDrive\\Documents\\TUGAS BEsar KOmputasi\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('profile/index', [], true)
+ 5 APPPATH\Controllers\Profile.php(13): view('profile/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\My ASUS\\OneDrive\\Documents\\TUGAS BEsar KOmputasi\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-08 14:36:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 15:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-08 15:06:46 --> ErrorException: Undefined variable $user
+[Method: GET, Route: profile]
+in APPPATH\Views\profile\index.php on line 6.
+ 1 APPPATH\Views\profile\index.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\Users\\My ASUS\\OneDrive\\Documents\\TUGAS BEsar KOmputasi\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\index.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\My ASUS\\OneDrive\\Documents\\TUGAS BEsar KOmputasi\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('profile/index', [], true)
+ 5 APPPATH\Controllers\Profile.php(13): view('profile/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\My ASUS\\OneDrive\\Documents\\TUGAS BEsar KOmputasi\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-08 16:12:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

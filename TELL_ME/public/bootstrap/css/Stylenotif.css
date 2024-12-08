@@ -32,40 +32,35 @@ body {
     height: auto;
 }
 
-.sidebar-item {
-    margin-bottom: 20px;
+/* Menghapus gaya tombol */
+.sidebar-item button {
+    all: unset; /* Menghapus semua gaya bawaan tombol */
+    cursor: pointer; /* Menjadikannya tetap dapat diklik */
     display: flex;
     align-items: center;
-    cursor: pointer;
-    color: #ccc;
+    gap: 8px; /* Jarak antara ikon dan teks */
+    color: inherit; /* Mengikuti warna teks sidebar */
+    font-size: 16px; /* Ukuran teks */
 }
 
-.sidebar-item span {
-    margin-left: 10px;
+/* Hover effect */
+.sidebar-item button:hover {
+    color: #007BFF; /* Warna saat hover */
 }
 
-.sidebar-item.active {
-    color: #ffffff;
+/* Gaya teks sidebar secara keseluruhan */
+.sidebar-item {
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Menandai item aktif */
+.sidebar-item.active button {
     font-weight: bold;
+    color: #007BFF;
 }
-
-.sidebar-item:hover {
-    color: #ffffff;
-}
-
-/* Main Content */
-.main-content {
-    flex-grow: 1;
-    padding: 20px;
-    background-color: #3a3a3a;
-    background-image: url('<?= base_url("images/atas.png") ?>'), 
-                      url('<?= base_url("images/kiri.png") ?>'), 
-                      url('<?= base_url("images/kanan.png") ?>');
-    background-position: top center, left center, right center;
-    background-repeat: no-repeat;
-    background-size: 1000px 160px, 150px 690px, 150px 690px;
-}
-
 
 /* Notifications Header */
 .notifications-header {
@@ -97,6 +92,7 @@ body {
     border-radius: 5px;
     background-color: #3a3a3a;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s;
 }
 
 .notification-item:hover {
