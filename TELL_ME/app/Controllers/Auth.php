@@ -69,11 +69,6 @@ class Auth extends Controller
     }
 
 
-    public function Profile()
-    {
-        // Data pengguna (dapat diganti dengan data dari database)
-        return view('profile/index');
-    }
 
     public function notif()
     {
