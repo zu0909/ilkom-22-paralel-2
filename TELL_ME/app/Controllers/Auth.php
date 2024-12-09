@@ -89,7 +89,7 @@ class Auth extends Controller
         ];
 
         // Kirim data ke view
-        return view('notifications', compact('notifications'));
+        return view('notif/index', compact('notifications'));
     }
 
     public function save()

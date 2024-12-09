@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= esc($username) ?>'s Profile</title>
+    <title><?= esc($user['username']) ?>'s Profile</title>
     <link rel="stylesheet" href="<?= base_url('bootstrap/css/Styleprofile.css') ?>">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
@@ -28,15 +28,15 @@
             <div class="profile-header">
                 <div class="profile-avatar"></div>
                 <div class="profile-info">
-                    <h2 class="profile-name"><?= esc($username) ?></h2>
-                    <p class="profile-bio"><?= esc($bio) ?></p>
+                <h1>Welcome, <?= esc($username) ?>!</h1>
+                    <p class="profile-bio"><?= esc($user['bio']) ?></p>
                     <div class="profile-stats">
                         <span id="follower-count">Followers: <?= esc($followersCount) ?></span>
                     </div>
                 </div>
                 <div class="profile-actions">
                     <button class="btn chat-btn">Chat</button>
-                    <a href="<?= base_url('/profile/edit') ?>" class="btn edit-profile-btn">Edit Profile</a>
+                    <button class="btn edit-profile-btn">Edit Profile</button>
                     <button class="btn follow-btn">Follow</button>
                 </div>
             </div>

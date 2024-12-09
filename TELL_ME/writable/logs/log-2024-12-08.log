@@ -8,6 +8,150 @@ INFO - 2024-12-08 00:36:08 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2024-12-08 00:36:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-12-08 00:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-12-08 00:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:14:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-08 02:14:21 --> mysqli_sql_exception: Table 'social_media_ui.user' doesn't exist in D:\ilkom-22-paralel-2\TELL_ME\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\ilkom-22-paralel-2\TELL_ME\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\ilkom-22-paralel-2\TELL_ME\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\ilkom-22-paralel-2\TELL_ME\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\ilkom-22-paralel-2\TELL_ME\app\Controllers\Auth.php(36): CodeIgniter\BaseModel->first()
+#7 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(933): App\Controllers\Auth->login()
+#8 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\ilkom-22-paralel-2\TELL_ME\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\ilkom-22-paralel-2\TELL_ME\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\ilkom-22-paralel-2\TELL_ME\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\ilkom-22-paralel-2\TELL_ME\system\rewrite.php(44): require_once('D:\\ilkom-22-par...')
+#14 {main}
+CRITICAL - 2024-12-08 02:14:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'social_media_ui.user' doesn't exist
+[Method: POST, Route: auth/login]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Auth.php(36): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+CRITICAL - 2024-12-08 02:14:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'social_media_ui.user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+WHERE `username` = \'freaky\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+WHERE `username` = \'freaky\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\Auth.php(36): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->login()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+CRITICAL - 2024-12-08 02:14:21 --> [Caused by] mysqli_sql_exception: Table 'social_media_ui.user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `user`
+WHERE `username` = \'freaky\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+WHERE `username` = \'freaky\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+WHERE `username` = \'freaky\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Auth.php(36): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->login()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-08 02:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:15:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:16:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:16:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:16:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:17:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:17:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:21:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:22:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:22:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:22:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:22:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-08 07:20:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "notifications.php"
+[Method: GET, Route: notif/index]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('notifications.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('notifications', [], true)
+ 3 APPPATH\Controllers\Auth.php(97): view('notifications', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->notif()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+CRITICAL - 2024-12-08 07:23:14 --> ErrorException: compact(): Undefined variable $notif/index
+[Method: GET, Route: notif/index]
+in APPPATH\Controllers\Auth.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Undefined variable $notif/index', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Controllers\\Auth.php', 97)
+ 2 APPPATH\Controllers\Auth.php(97): compact('notif/index')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->notif()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-08 07:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 11:30:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 11:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 11:30:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 11:30:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-12-08 02:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-12-08 02:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-12-08 02:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
@@ -25,251 +169,37 @@ INFO - 2024-12-08 02:53:40 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2024-12-08 02:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-12-08 03:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-12-08 03:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-INFO - 2024-12-08 23:32:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-INFO - 2024-12-08 23:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-INFO - 2024-12-08 23:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-INFO - 2024-12-08 23:33:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-CRITICAL - 2024-12-08 23:33:26 --> ErrorException: Undefined variable $user
-[Method: GET, Route: profile/index]
-in APPPATH\Views\profile\index.php on line 6.
- 1 APPPATH\Views\profile\index.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\index.php', 6)
- 2 SYSTEMPATH\View\View.php(234): include('E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\index.php')
- 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
- 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('profile/index', [], true)
- 5 APPPATH\Controllers\Profile.php(13): view('profile/index', [...])
- 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
- 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
- 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-12 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
-INFO - 2024-12-08 23:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-CRITICAL - 2024-12-08 23:35:37 --> ErrorException: Undefined variable $user
-[Method: GET, Route: profile/index]
-in APPPATH\Views\profile\index.php on line 6.
- 1 APPPATH\Views\profile\index.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\index.php', 6)
- 2 SYSTEMPATH\View\View.php(234): include('E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\index.php')
- 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
- 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('profile/index', [], true)
- 5 APPPATH\Controllers\Profile.php(13): view('profile/index', [...])
- 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
- 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
- 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-12 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
-INFO - 2024-12-08 23:35:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-CRITICAL - 2024-12-08 23:35:39 --> ErrorException: Undefined variable $user
-[Method: GET, Route: profile/index]
-in APPPATH\Views\profile\index.php on line 6.
- 1 APPPATH\Views\profile\index.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\index.php', 6)
- 2 SYSTEMPATH\View\View.php(234): include('E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\index.php')
- 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
- 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('profile/index', [], true)
- 5 APPPATH\Controllers\Profile.php(13): view('profile/index', [...])
- 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
- 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
- 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-12 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
-INFO - 2024-12-08 23:35:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-CRITICAL - 2024-12-08 23:35:41 --> ErrorException: Undefined variable $user
-[Method: GET, Route: profile/index]
-in APPPATH\Views\profile\index.php on line 6.
- 1 APPPATH\Views\profile\index.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\index.php', 6)
- 2 SYSTEMPATH\View\View.php(234): include('E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\index.php')
- 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
- 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('profile/index', [], true)
- 5 APPPATH\Controllers\Profile.php(13): view('profile/index', [...])
- 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
- 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
- 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-12 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
-INFO - 2024-12-08 23:35:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-CRITICAL - 2024-12-08 23:35:42 --> ErrorException: Undefined variable $user
-[Method: GET, Route: profile/index]
-in APPPATH\Views\profile\index.php on line 6.
- 1 APPPATH\Views\profile\index.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\index.php', 6)
- 2 SYSTEMPATH\View\View.php(234): include('E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\index.php')
- 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
- 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('profile/index', [], true)
- 5 APPPATH\Controllers\Profile.php(13): view('profile/index', [...])
- 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
- 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
- 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-12 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
-INFO - 2024-12-08 23:35:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-CRITICAL - 2024-12-08 23:35:53 --> ErrorException: Undefined variable $user
-[Method: GET, Route: profile]
-in APPPATH\Views\profile\index.php on line 6.
- 1 APPPATH\Views\profile\index.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\index.php', 6)
- 2 SYSTEMPATH\View\View.php(234): include('E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\index.php')
- 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
- 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('profile/index', [], true)
- 5 APPPATH\Controllers\Profile.php(13): view('profile/index', [...])
- 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
- 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
- 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-12 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
-INFO - 2024-12-08 23:35:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-CRITICAL - 2024-12-08 23:35:59 --> ErrorException: Undefined variable $user
-[Method: GET, Route: profile/index]
-in APPPATH\Views\profile\index.php on line 6.
- 1 APPPATH\Views\profile\index.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\index.php', 6)
- 2 SYSTEMPATH\View\View.php(234): include('E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\index.php')
- 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
- 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('profile/index', [], true)
- 5 APPPATH\Controllers\Profile.php(13): view('profile/index', [...])
- 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
- 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
- 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-12 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
-INFO - 2024-12-08 23:36:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-INFO - 2024-12-08 23:36:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-INFO - 2024-12-08 23:36:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-CRITICAL - 2024-12-08 23:36:08 --> ErrorException: Undefined variable $user
-[Method: GET, Route: profile/index]
-in APPPATH\Views\profile\index.php on line 6.
- 1 APPPATH\Views\profile\index.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\index.php', 6)
- 2 SYSTEMPATH\View\View.php(234): include('E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\index.php')
- 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
- 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('profile/index', [], true)
- 5 APPPATH\Controllers\Profile.php(13): view('profile/index', [...])
- 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
- 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
- 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-12 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
-INFO - 2024-12-08 23:37:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-INFO - 2024-12-08 23:37:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-INFO - 2024-12-08 23:37:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-CRITICAL - 2024-12-08 23:37:05 --> ErrorException: Undefined variable $user
-[Method: GET, Route: profile/index]
-in APPPATH\Views\profile\index.php on line 6.
- 1 APPPATH\Views\profile\index.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\index.php', 6)
- 2 SYSTEMPATH\View\View.php(234): include('E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\index.php')
- 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
- 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('profile/index', [], true)
- 5 APPPATH\Controllers\Profile.php(13): view('profile/index', [...])
- 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
- 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
- 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-12 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
-INFO - 2024-12-08 23:37:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-CRITICAL - 2024-12-08 23:37:44 --> ErrorException: Array to string conversion
-[Method: GET, Route: profile/index]
-in APPPATH\Views\profile\index.php on line 32.
- 1 APPPATH\Views\profile\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\index.php', 32)
- 2 SYSTEMPATH\View\View.php(234): include('E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\index.php')
- 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
- 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('profile/index', [], true)
- 5 APPPATH\Controllers\Profile.php(13): view('profile/index', [...])
- 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
- 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
- 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-12 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
-INFO - 2024-12-08 23:38:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-CRITICAL - 2024-12-08 23:38:20 --> ErrorException: Undefined variable $bio
-[Method: GET, Route: profile/index]
-in APPPATH\Views\profile\index.php on line 32.
- 1 APPPATH\Views\profile\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bio', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\index.php', 32)
- 2 SYSTEMPATH\View\View.php(234): include('E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\index.php')
- 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
- 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('profile/index', [], true)
- 5 APPPATH\Controllers\Profile.php(13): view('profile/index', [...])
- 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
- 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
- 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-12 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
-INFO - 2024-12-08 23:38:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-CRITICAL - 2024-12-08 23:38:22 --> ErrorException: Undefined variable $bio
-[Method: GET, Route: profile/index]
-in APPPATH\Views\profile\index.php on line 32.
- 1 APPPATH\Views\profile\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bio', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\index.php', 32)
- 2 SYSTEMPATH\View\View.php(234): include('E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\index.php')
- 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
- 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('profile/index', [], true)
- 5 APPPATH\Controllers\Profile.php(13): view('profile/index', [...])
- 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
- 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
- 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-12 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
-INFO - 2024-12-08 23:38:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-CRITICAL - 2024-12-08 23:38:24 --> ErrorException: Undefined variable $bio
-[Method: GET, Route: profile/index]
-in APPPATH\Views\profile\index.php on line 32.
- 1 APPPATH\Views\profile\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bio', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\index.php', 32)
- 2 SYSTEMPATH\View\View.php(234): include('E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\index.php')
- 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
- 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('profile/index', [], true)
- 5 APPPATH\Controllers\Profile.php(13): view('profile/index', [...])
- 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
- 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
- 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-12 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
-INFO - 2024-12-08 23:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-CRITICAL - 2024-12-08 23:39:17 --> ErrorException: Undefined variable $followersCount
-[Method: GET, Route: profile/index]
-in APPPATH\Views\profile\index.php on line 34.
- 1 APPPATH\Views\profile\index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $followersCount', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\index.php', 34)
- 2 SYSTEMPATH\View\View.php(234): include('E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\index.php')
- 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
- 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('profile/index', [], true)
- 5 APPPATH\Controllers\Profile.php(13): view('profile/index', [...])
- 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
- 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
- 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-12 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
-INFO - 2024-12-08 23:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-CRITICAL - 2024-12-08 23:39:38 --> ErrorException: Array to string conversion
-[Method: GET, Route: profile/index]
-in APPPATH\Views\profile\index.php on line 32.
- 1 APPPATH\Views\profile\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\index.php', 32)
- 2 SYSTEMPATH\View\View.php(234): include('E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\index.php')
- 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
- 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('profile/index', [], true)
- 5 APPPATH\Controllers\Profile.php(13): view('profile/index', [...])
- 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
- 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
- 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-12 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
-INFO - 2024-12-08 23:49:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:46:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:46:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:52:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:53:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:53:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:53:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:53:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:53:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 03:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 03:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:46:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:46:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:52:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:53:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:53:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:53:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:53:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:53:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 02:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 03:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 03:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
