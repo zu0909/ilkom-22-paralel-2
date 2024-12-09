@@ -1,0 +1,799 @@
+INFO - 2024-12-09 00:35:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:35:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:35:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:37:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:48:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:48:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:49:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:49:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:56:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 00:58:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 00:58:35 --> ErrorException: Undefined array key "username"
+[Method: GET, Route: profile]
+in APPPATH\Controllers\Profile.php on line 15.
+ 1 APPPATH\Controllers\Profile.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Controllers\\Profile.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 01:00:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:00:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:01:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:03:19 --> ErrorException: Undefined array key "username"
+[Method: GET, Route: profile]
+in APPPATH\Controllers\Profile.php on line 15.
+ 1 APPPATH\Controllers\Profile.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Controllers\\Profile.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 01:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:03:50 --> ErrorException: Undefined array key "username"
+[Method: GET, Route: profile]
+in APPPATH\Controllers\Profile.php on line 15.
+ 1 APPPATH\Controllers\Profile.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Controllers\\Profile.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 01:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:08:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:09:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:09:40 --> ErrorException: Undefined array key "username"
+[Method: GET, Route: profile]
+in APPPATH\Controllers\Profile.php on line 15.
+ 1 APPPATH\Controllers\Profile.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Controllers\\Profile.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 01:11:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:11:10 --> ErrorException: Undefined array key "username"
+[Method: GET, Route: profile]
+in APPPATH\Controllers\Profile.php on line 15.
+ 1 APPPATH\Controllers\Profile.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Controllers\\Profile.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 01:11:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:11:11 --> ErrorException: Undefined array key "username"
+[Method: GET, Route: profile]
+in APPPATH\Controllers\Profile.php on line 15.
+ 1 APPPATH\Controllers\Profile.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Controllers\\Profile.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 01:11:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:11:13 --> ErrorException: Undefined array key "username"
+[Method: GET, Route: profile]
+in APPPATH\Controllers\Profile.php on line 15.
+ 1 APPPATH\Controllers\Profile.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Controllers\\Profile.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 01:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:19:14 --> ErrorException: Undefined array key "username"
+[Method: GET, Route: profile]
+in APPPATH\Controllers\Profile.php on line 15.
+ 1 APPPATH\Controllers\Profile.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Controllers\\Profile.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 01:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:19:15 --> ErrorException: Undefined array key "username"
+[Method: GET, Route: profile]
+in APPPATH\Controllers\Profile.php on line 15.
+ 1 APPPATH\Controllers\Profile.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Controllers\\Profile.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 01:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:19:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:19:23 --> ErrorException: Undefined array key "username"
+[Method: GET, Route: profile/index]
+in APPPATH\Controllers\Profile.php on line 15.
+ 1 APPPATH\Controllers\Profile.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Controllers\\Profile.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 01:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:38:27 --> ErrorException: Undefined array key "username"
+[Method: GET, Route: profile/index]
+in APPPATH\Controllers\Profile.php on line 15.
+ 1 APPPATH\Controllers\Profile.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Controllers\\Profile.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 01:38:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:38:28 --> ErrorException: Undefined array key "username"
+[Method: GET, Route: profile/index]
+in APPPATH\Controllers\Profile.php on line 15.
+ 1 APPPATH\Controllers\Profile.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Controllers\\Profile.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 01:40:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:43:28 --> ParseError: Unmatched '}'
+[Method: GET, Route: profile/index]
+in APPPATH\Controllers\Profile.php on line 79.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Controllers\\Profile.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Profile')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Profile')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Profile', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 01:43:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:43:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:43:53 --> Error: Class "App\Controllers\UserModel" not found
+[Method: GET, Route: profile/edit]
+in APPPATH\Controllers\Profile.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 01:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:44:37 --> Error: Class "App\Controllers\UserModels" not found
+[Method: GET, Route: profile/edit]
+in APPPATH\Controllers\Profile.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 01:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:45:43 --> Error: Class "App\Controllers\UserModel" not found
+[Method: GET, Route: profile/edit]
+in APPPATH\Controllers\Profile.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 01:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:48:52 --> ErrorException: Undefined variable $username
+[Method: GET, Route: profile/edit]
+in APPPATH\Views\profile\edit.php on line 28.
+ 1 APPPATH\Views\profile\edit.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\edit.php', 28)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('profile/edit', [], true)
+ 5 APPPATH\Controllers\Profile.php(45): view('profile/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 01:51:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:51:03 --> ErrorException: Undefined variable $username
+[Method: GET, Route: profile/edit]
+in APPPATH\Views\profile\edit.php on line 28.
+ 1 APPPATH\Views\profile\edit.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\edit.php', 28)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('profile/edit', [], true)
+ 5 APPPATH\Controllers\Profile.php(45): view('profile/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 01:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:51:04 --> ErrorException: Undefined variable $username
+[Method: GET, Route: profile/edit]
+in APPPATH\Views\profile\edit.php on line 28.
+ 1 APPPATH\Views\profile\edit.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\edit.php', 28)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('profile/edit', [], true)
+ 5 APPPATH\Controllers\Profile.php(45): view('profile/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 01:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:51:04 --> ErrorException: Undefined variable $username
+[Method: GET, Route: profile/edit]
+in APPPATH\Views\profile\edit.php on line 28.
+ 1 APPPATH\Views\profile\edit.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\edit.php', 28)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('profile/edit', [], true)
+ 5 APPPATH\Controllers\Profile.php(45): view('profile/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 01:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:51:05 --> ErrorException: Undefined variable $username
+[Method: GET, Route: profile/edit]
+in APPPATH\Views\profile\edit.php on line 28.
+ 1 APPPATH\Views\profile\edit.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\edit.php', 28)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('profile/edit', [], true)
+ 5 APPPATH\Controllers\Profile.php(45): view('profile/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 01:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:51:05 --> ErrorException: Undefined variable $username
+[Method: GET, Route: profile/edit]
+in APPPATH\Views\profile\edit.php on line 28.
+ 1 APPPATH\Views\profile\edit.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\edit.php', 28)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('profile/edit', [], true)
+ 5 APPPATH\Controllers\Profile.php(45): view('profile/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 01:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:51:06 --> ErrorException: Undefined variable $username
+[Method: GET, Route: profile/edit]
+in APPPATH\Views\profile\edit.php on line 28.
+ 1 APPPATH\Views\profile\edit.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\edit.php', 28)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\profile\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('profile/edit', [], true)
+ 5 APPPATH\Controllers\Profile.php(45): view('profile/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 01:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:52:11 --> ErrorException: Undefined array key "username"
+[Method: GET, Route: profile/edit]
+in APPPATH\Controllers\Profile.php on line 52.
+ 1 APPPATH\Controllers\Profile.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Controllers\\Profile.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 01:52:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:52:13 --> ErrorException: Undefined array key "username"
+[Method: GET, Route: profile/edit]
+in APPPATH\Controllers\Profile.php on line 52.
+ 1 APPPATH\Controllers\Profile.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Controllers\\Profile.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 01:52:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:52:14 --> ErrorException: Undefined array key "username"
+[Method: GET, Route: profile/edit]
+in APPPATH\Controllers\Profile.php on line 52.
+ 1 APPPATH\Controllers\Profile.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Controllers\\Profile.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 01:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:52:14 --> ErrorException: Undefined array key "username"
+[Method: GET, Route: profile/edit]
+in APPPATH\Controllers\Profile.php on line 52.
+ 1 APPPATH\Controllers\Profile.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Controllers\\Profile.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 01:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:52:15 --> ErrorException: Undefined array key "username"
+[Method: GET, Route: profile/edit]
+in APPPATH\Controllers\Profile.php on line 52.
+ 1 APPPATH\Controllers\Profile.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Controllers\\Profile.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 01:54:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:54:10 --> ErrorException: Undefined variable $username
+[Method: GET, Route: profile/edit]
+in APPPATH\Controllers\Profile.php on line 52.
+ 1 APPPATH\Controllers\Profile.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Controllers\\Profile.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 01:54:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:54:12 --> ErrorException: Undefined variable $username
+[Method: GET, Route: profile/edit]
+in APPPATH\Controllers\Profile.php on line 52.
+ 1 APPPATH\Controllers\Profile.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Controllers\\Profile.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 01:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:54:13 --> ErrorException: Undefined variable $username
+[Method: GET, Route: profile/edit]
+in APPPATH\Controllers\Profile.php on line 52.
+ 1 APPPATH\Controllers\Profile.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Controllers\\Profile.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 01:54:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:54:14 --> ErrorException: Undefined variable $username
+[Method: GET, Route: profile/edit]
+in APPPATH\Controllers\Profile.php on line 52.
+ 1 APPPATH\Controllers\Profile.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Controllers\\Profile.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 01:54:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:54:14 --> ErrorException: Undefined variable $username
+[Method: GET, Route: profile/edit]
+in APPPATH\Controllers\Profile.php on line 52.
+ 1 APPPATH\Controllers\Profile.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Controllers\\Profile.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 01:54:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:54:14 --> ErrorException: Undefined variable $username
+[Method: GET, Route: profile/edit]
+in APPPATH\Controllers\Profile.php on line 52.
+ 1 APPPATH\Controllers\Profile.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Controllers\\Profile.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 01:54:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:54:15 --> ErrorException: Undefined variable $username
+[Method: GET, Route: profile/edit]
+in APPPATH\Controllers\Profile.php on line 52.
+ 1 APPPATH\Controllers\Profile.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Controllers\\Profile.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 01:54:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:54:15 --> ErrorException: Undefined variable $username
+[Method: GET, Route: profile/edit]
+in APPPATH\Controllers\Profile.php on line 52.
+ 1 APPPATH\Controllers\Profile.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Controllers\\Profile.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 01:54:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:54:15 --> ErrorException: Undefined variable $username
+[Method: GET, Route: profile/edit]
+in APPPATH\Controllers\Profile.php on line 52.
+ 1 APPPATH\Controllers\Profile.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Controllers\\Profile.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 01:58:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:58:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:58:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 01:59:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:59:08 --> ErrorException: Undefined variable $userModel
+[Method: GET, Route: profile/edit]
+in APPPATH\Controllers\Profile.php on line 44.
+ 1 APPPATH\Controllers\Profile.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Controllers\\Profile.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 01:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 01:59:48 --> ErrorException: Undefined array key "username"
+[Method: GET, Route: profile/edit]
+in APPPATH\Controllers\Profile.php on line 50.
+ 1 APPPATH\Controllers\Profile.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Controllers\\Profile.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 02:09:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 02:09:47 --> ErrorException: Undefined array key "username"
+[Method: GET, Route: profile/edit]
+in APPPATH\Controllers\Profile.php on line 50.
+ 1 APPPATH\Controllers\Profile.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Controllers\\Profile.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 02:09:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 02:09:48 --> ErrorException: Undefined array key "username"
+[Method: GET, Route: profile/edit]
+in APPPATH\Controllers\Profile.php on line 50.
+ 1 APPPATH\Controllers\Profile.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Controllers\\Profile.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 02:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 02:09:49 --> ErrorException: Undefined array key "username"
+[Method: GET, Route: profile/edit]
+in APPPATH\Controllers\Profile.php on line 50.
+ 1 APPPATH\Controllers\Profile.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Controllers\\Profile.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 02:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 02:09:49 --> ErrorException: Undefined array key "username"
+[Method: GET, Route: profile/edit]
+in APPPATH\Controllers\Profile.php on line 50.
+ 1 APPPATH\Controllers\Profile.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Controllers\\Profile.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 02:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 02:09:49 --> ErrorException: Undefined array key "username"
+[Method: GET, Route: profile/edit]
+in APPPATH\Controllers\Profile.php on line 50.
+ 1 APPPATH\Controllers\Profile.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Controllers\\Profile.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 02:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 02:09:50 --> ErrorException: Undefined array key "username"
+[Method: GET, Route: profile/edit]
+in APPPATH\Controllers\Profile.php on line 50.
+ 1 APPPATH\Controllers\Profile.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Controllers\\Profile.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 02:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 02:09:50 --> ErrorException: Undefined array key "username"
+[Method: GET, Route: profile/edit]
+in APPPATH\Controllers\Profile.php on line 50.
+ 1 APPPATH\Controllers\Profile.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Controllers\\Profile.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 02:10:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 02:11:45 --> ErrorException: Undefined array key "username"
+[Method: GET, Route: profile/edit]
+in APPPATH\Controllers\Profile.php on line 50.
+ 1 APPPATH\Controllers\Profile.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'E:\\ilkom-22-paralel-2\\TELL_ME\\app\\Controllers\\Profile.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 02:12:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:12:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:12:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:12:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:55:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 02:55:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Updates are not allowed unless they contain a "where" or "like" clause.
+[Method: POST, Route: profile/update]
+in SYSTEMPATH\Model.php on line 456.
+ 1 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\Profile.php(97): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->update()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 02:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:56:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:56:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:56:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:57:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 02:57:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:02:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:04:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:08:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:08:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:08:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:09:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:12:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:13:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 03:47:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 10:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 10:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 10:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 10:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 10:16:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 10:16:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Updates are not allowed unless they contain a "where" or "like" clause.
+[Method: POST, Route: profile/update]
+in SYSTEMPATH\Model.php on line 456.
+ 1 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\Profile.php(97): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->update()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 10:26:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-09 10:26:32 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in E:\ilkom-22-paralel-2\TELL_ME\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\ilkom-22-paralel-2\TELL_ME\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `user` S...', 0)
+#1 E:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user` S...')
+#2 E:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user` S...')
+#3 E:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `user` S...', Array, false)
+#4 E:\ilkom-22-paralel-2\TELL_ME\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 E:\ilkom-22-paralel-2\TELL_ME\system\BaseModel.php(1028): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 E:\ilkom-22-paralel-2\TELL_ME\system\Model.php(865): CodeIgniter\BaseModel->update(NULL, Array)
+#7 E:\ilkom-22-paralel-2\TELL_ME\app\Controllers\Profile.php(98): CodeIgniter\Model->update()
+#8 E:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(933): App\Controllers\Profile->update()
+#9 E:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#10 E:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\ilkom-22-paralel-2\TELL_ME\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 E:\ilkom-22-paralel-2\TELL_ME\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 E:\ilkom-22-paralel-2\TELL_ME\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 E:\ilkom-22-paralel-2\TELL_ME\system\rewrite.php(44): require_once('E:\\ilkom-22-par...')
+#15 {main}
+CRITICAL - 2024-12-09 10:26:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+[Method: POST, Route: profile/update]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `user` SET `username` = :username:, `bio` = :bio:, `profile_picture` = :profile_picture:
+WHERE `id` IS NULL', [...], false)
+ 2 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 4 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [...])
+ 5 APPPATH\Controllers\Profile.php(98): CodeIgniter\Model->update()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->update()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+CRITICAL - 2024-12-09 10:26:32 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user` SET `username` = \'ayam09goyeng\', `bio` = \'hello ges\', `profile_picture` = \'uploads/1733739992_0e990d16274ab19ca21e.jpg\'
+WHERE `id` IS NULL')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user` SET `username` = \'ayam09goyeng\', `bio` = \'hello ges\', `profile_picture` = \'uploads/1733739992_0e990d16274ab19ca21e.jpg\'
+WHERE `id` IS NULL')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `user` SET `username` = :username:, `bio` = :bio:, `profile_picture` = :profile_picture:
+WHERE `id` IS NULL', [...], false)
+ 4 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 6 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [...])
+ 7 APPPATH\Controllers\Profile.php(98): CodeIgniter\Model->update()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->update()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+CRITICAL - 2024-12-09 10:26:32 --> [Caused by] mysqli_sql_exception: Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `user` SET `username` = \'ayam09goyeng\', `bio` = \'hello ges\', `profile_picture` = \'uploads/1733739992_0e990d16274ab19ca21e.jpg\'
+WHERE `id` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user` SET `username` = \'ayam09goyeng\', `bio` = \'hello ges\', `profile_picture` = \'uploads/1733739992_0e990d16274ab19ca21e.jpg\'
+WHERE `id` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user` SET `username` = \'ayam09goyeng\', `bio` = \'hello ges\', `profile_picture` = \'uploads/1733739992_0e990d16274ab19ca21e.jpg\'
+WHERE `id` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `user` SET `username` = :username:, `bio` = :bio:, `profile_picture` = :profile_picture:
+WHERE `id` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 7 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [...])
+ 8 APPPATH\Controllers\Profile.php(98): CodeIgniter\Model->update()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->update()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('E:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 10:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 10:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 10:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 10:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 10:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 10:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 10:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 10:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 10:28:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 10:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 10:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

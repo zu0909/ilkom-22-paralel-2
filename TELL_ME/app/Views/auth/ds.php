@@ -55,6 +55,12 @@
                 <i class="fas fa-envelope"></i>
                 <span>Messages</span>
             </div>
+            <div class="sidebar-item logout-icon">
+                <form action="<?= base_url('auth/logout') ?>" method="post" style="display:inline;">
+                    <?= csrf_field() ?>
+                    <button type="submit" class="btn logout-btn"><i class="fas fa-sign-out-alt"></i> Logout</button>
+                </form>
+            </div>
         </aside>
         <main class="main-content">
             <div class="stories">

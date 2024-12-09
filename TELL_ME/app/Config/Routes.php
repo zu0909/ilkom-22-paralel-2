@@ -40,6 +40,9 @@ $routes->get('/auth/ds', 'Auth::dashboard');
 $routes->get('/auth/logout', 'Auth::logout');
 $routes->get('profile/index', 'Profile::index');
 $routes->get('notif/index', 'Auth::notif');
+$routes->get('/profile/edit', 'Profile::edit');
+$routes->post('/profile/update', 'Profile::update');
+
 
 // Rute 404
 $routes->set404Override(function () {
