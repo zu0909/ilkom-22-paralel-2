@@ -43,20 +43,20 @@
             </div>
             <div class="sidebar-item profile-icon">
                 <i class="fas fa-user"></i>
-                <button onclick="window.location.href='<?= base_url('/profile') ?>'">
+                <button onclick="window.location.href='<?= base_url('/profile/index') ?>'">
                     Profile
                 </button>
             </div>
             <div class="sidebar-item notifications-icon active">
                 <i class="fas fa-bell"></i>
-                <button onclick="window.location.href='<?= base_url('/notifications') ?>'">
+                <button onclick="window.location.href='<?= base_url('/notif/index') ?>'">
                     Notifications
                 </button>
             </div>
-            <div class="sidebar-item messages-icon">
-                <i class="fas fa-envelope"></i>
-                <button onclick="window.location.href='<?= base_url('/messages') ?>'">
-                    Messages
+            <div class="sidebar-item home-icon">
+                <i class="fas fa-home"></i>
+                <button onclick="window.location.href='<?= base_url('auth/ds') ?>'">
+                    Home
                 </button>
             </div>
         </aside>

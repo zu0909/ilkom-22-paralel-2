@@ -51,10 +51,6 @@
                     <span>Notifications</span>
                 </button>
             </div>
-            <div class="sidebar-item messages-icon">
-                <i class="fas fa-envelope"></i>
-                <span>Messages</span>
-            </div>
             <div class="sidebar-item logout-icon">
                 <form action="<?= base_url('auth/logout') ?>" method="post" style="display:inline;">
                     <?= csrf_field() ?>

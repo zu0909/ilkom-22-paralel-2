@@ -13,27 +13,39 @@
             <div class="logo"></div>
             <div class="sidebar-item profile-icon">
                 <i class="fas fa-user"></i>
-                <span>Profile</span>
+                <button onclick="window.location.href='<?= base_url('/profile/index') ?>'">
+                    Profile
+                </button>
             </div>
             <div class="sidebar-item notifications-icon">
                 <i class="fas fa-bell"></i>
-                <span>Notifications</span>
+                <button onclick="window.location.href='<?= base_url('/notif/index') ?>'">
+                    Notification
+                </button>
             </div>
-            <div class="sidebar-item messages-icon">
-                <i class="fas fa-envelope"></i>
-                <span>Messages</span>
+            <div class="sidebar-item home-icon">
+                <i class="fas fa-home"></i>
+                <button onclick="window.location.href='<?= base_url('auth/ds') ?>'">
+                    Home
+                </button>
             </div>
         </aside>
         <main class="main-content">
-            <div class="profile-header">
-                <div class="profile-avatar"></div>
-                <div class="profile-info">
-                    <h2 class="profile-name"><?= esc($username) ?></h2>
-                    <p class="profile-bio"><?= esc($bio) ?></p>
-                    <div class="profile-stats">
-                        <span id="follower-count">Followers: <?= esc($followersCount) ?></span>
-                    </div>
+        <div class="profile-header">
+            <div class="profile-avatar">
+                <?php if (!empty(session()->get('profile_picture'))): ?>
+                <img src="<?= esc(session()->get('profile_picture')) ?>" alt="Profile Picture">
+                <?php else: ?>
+                    <img src="default-avatar.png" alt="Default Avatar"> <!-- Gambar default jika tidak ada -->
+                <?php endif; ?>
+            </div>
+            <div class="profile-info">
+                <h2 class="profile-name"><?= esc(session()->get('username')) ?></h2>
+                <p class="profile-bio"><?= esc(session()->get('bio')) ?></p>
+                <div class="profile-stats">
+                    <span id="follower-count">Followers: <?= esc($followersCount) ?></span>
                 </div>
+            </div>
                 <div class="profile-actions">
                     <button class="btn chat-btn">Chat</button>
                     <a href="<?= base_url('/profile/edit') ?>" class="btn edit-profile-btn">Edit Profile</a>
