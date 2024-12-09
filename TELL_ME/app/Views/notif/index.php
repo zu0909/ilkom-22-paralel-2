@@ -39,7 +39,9 @@
         <!-- Sidebar -->
         <aside class="sidebar">
             <div class="logo">
-                <img src="<?= base_url('images/logoo.png') ?>" alt="Logo">
+                <a href="<?= base_url('/auth/ds') ?>"> <!-- Tambahkan elemen <a> -->
+                    <img src="<?= base_url('images/logoo.png') ?>" alt="Logo">
+                </a>
             </div>
             <div class="sidebar-item profile-icon">
                 <i class="fas fa-user"></i>

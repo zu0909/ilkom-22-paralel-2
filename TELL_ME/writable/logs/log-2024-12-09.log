@@ -797,3 +797,740 @@ INFO - 2024-12-09 10:28:17 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2024-12-09 10:28:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-12-09 10:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-12-09 10:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 11:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 11:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 11:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 11:27:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 11:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 11:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 11:29:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 11:29:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 11:29:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 11:29:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 11:31:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 11:31:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 11:38:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 11:38:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 11:38:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 11:38:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 11:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 11:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 11:39:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 11:39:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 11:39:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 11:39:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 11:39:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 11:40:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 11:40:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 11:41:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 12:01:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 12:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 12:04:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 12:06:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 12:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 12:19:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-09 12:19:46 --> mysqli_sql_exception: Unknown column 'bio' in 'field list' in D:\ilkom-22-paralel-2\TELL_ME\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\ilkom-22-paralel-2\TELL_ME\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `usernam...', 0)
+#1 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usernam...')
+#2 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usernam...')
+#3 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `usernam...', Array, false)
+#4 D:\ilkom-22-paralel-2\TELL_ME\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\ilkom-22-paralel-2\TELL_ME\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\ilkom-22-paralel-2\TELL_ME\app\Controllers\UserController.php(19): CodeIgniter\BaseModel->findAll()
+#7 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(933): App\Controllers\UserController->searchProfile()
+#8 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\ilkom-22-paralel-2\TELL_ME\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\ilkom-22-paralel-2\TELL_ME\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\ilkom-22-paralel-2\TELL_ME\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\ilkom-22-paralel-2\TELL_ME\system\rewrite.php(44): require_once('D:\\ilkom-22-par...')
+#14 {main}
+CRITICAL - 2024-12-09 12:19:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bio' in 'field list'
+[Method: GET, Route: search-profile]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE :username: ESCAPE \'!\'', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\UserController.php(19): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->searchProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+CRITICAL - 2024-12-09 12:19:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bio' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE \'%b%\' ESCAPE \'!\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE \'%b%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE :username: ESCAPE \'!\'', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\UserController.php(19): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->searchProfile()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+CRITICAL - 2024-12-09 12:19:46 --> [Caused by] mysqli_sql_exception: Unknown column 'bio' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE \'%b%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE \'%b%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE \'%b%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE :username: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\UserController.php(19): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->searchProfile()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+ERROR - 2024-12-09 12:19:47 --> mysqli_sql_exception: Unknown column 'bio' in 'field list' in D:\ilkom-22-paralel-2\TELL_ME\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\ilkom-22-paralel-2\TELL_ME\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `usernam...', 0)
+#1 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usernam...')
+#2 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usernam...')
+#3 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `usernam...', Array, false)
+#4 D:\ilkom-22-paralel-2\TELL_ME\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\ilkom-22-paralel-2\TELL_ME\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\ilkom-22-paralel-2\TELL_ME\app\Controllers\UserController.php(19): CodeIgniter\BaseModel->findAll()
+#7 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(933): App\Controllers\UserController->searchProfile()
+#8 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\ilkom-22-paralel-2\TELL_ME\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\ilkom-22-paralel-2\TELL_ME\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\ilkom-22-paralel-2\TELL_ME\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\ilkom-22-paralel-2\TELL_ME\system\rewrite.php(44): require_once('D:\\ilkom-22-par...')
+#14 {main}
+CRITICAL - 2024-12-09 12:19:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bio' in 'field list'
+[Method: GET, Route: search-profile]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE :username: ESCAPE \'!\'', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\UserController.php(19): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->searchProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+CRITICAL - 2024-12-09 12:19:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bio' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE \'%a%\' ESCAPE \'!\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE \'%a%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE :username: ESCAPE \'!\'', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\UserController.php(19): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->searchProfile()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+CRITICAL - 2024-12-09 12:19:47 --> [Caused by] mysqli_sql_exception: Unknown column 'bio' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE \'%a%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE \'%a%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE \'%a%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE :username: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\UserController.php(19): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->searchProfile()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+ERROR - 2024-12-09 12:19:52 --> mysqli_sql_exception: Unknown column 'bio' in 'field list' in D:\ilkom-22-paralel-2\TELL_ME\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\ilkom-22-paralel-2\TELL_ME\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `usernam...', 0)
+#1 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usernam...')
+#2 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usernam...')
+#3 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `usernam...', Array, false)
+#4 D:\ilkom-22-paralel-2\TELL_ME\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\ilkom-22-paralel-2\TELL_ME\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\ilkom-22-paralel-2\TELL_ME\app\Controllers\UserController.php(19): CodeIgniter\BaseModel->findAll()
+#7 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(933): App\Controllers\UserController->searchProfile()
+#8 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\ilkom-22-paralel-2\TELL_ME\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\ilkom-22-paralel-2\TELL_ME\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\ilkom-22-paralel-2\TELL_ME\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\ilkom-22-paralel-2\TELL_ME\system\rewrite.php(44): require_once('D:\\ilkom-22-par...')
+#14 {main}
+CRITICAL - 2024-12-09 12:19:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bio' in 'field list'
+[Method: GET, Route: search-profile]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE :username: ESCAPE \'!\'', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\UserController.php(19): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->searchProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+CRITICAL - 2024-12-09 12:19:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bio' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE \'%a%\' ESCAPE \'!\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE \'%a%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE :username: ESCAPE \'!\'', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\UserController.php(19): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->searchProfile()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+CRITICAL - 2024-12-09 12:19:52 --> [Caused by] mysqli_sql_exception: Unknown column 'bio' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE \'%a%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE \'%a%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE \'%a%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE :username: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\UserController.php(19): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->searchProfile()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 13:34:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 13:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-09 13:34:57 --> mysqli_sql_exception: Unknown column 'bio' in 'field list' in D:\ilkom-22-paralel-2\TELL_ME\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\ilkom-22-paralel-2\TELL_ME\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `usernam...', 0)
+#1 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usernam...')
+#2 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usernam...')
+#3 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `usernam...', Array, false)
+#4 D:\ilkom-22-paralel-2\TELL_ME\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\ilkom-22-paralel-2\TELL_ME\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\ilkom-22-paralel-2\TELL_ME\app\Controllers\UserController.php(19): CodeIgniter\BaseModel->findAll()
+#7 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(933): App\Controllers\UserController->searchProfile()
+#8 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\ilkom-22-paralel-2\TELL_ME\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\ilkom-22-paralel-2\TELL_ME\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\ilkom-22-paralel-2\TELL_ME\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\ilkom-22-paralel-2\TELL_ME\system\rewrite.php(44): require_once('D:\\ilkom-22-par...')
+#14 {main}
+CRITICAL - 2024-12-09 13:34:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bio' in 'field list'
+[Method: GET, Route: search-profile]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE :username: ESCAPE \'!\'', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\UserController.php(19): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->searchProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+CRITICAL - 2024-12-09 13:34:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bio' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE \'%a%\' ESCAPE \'!\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE \'%a%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE :username: ESCAPE \'!\'', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\UserController.php(19): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->searchProfile()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+CRITICAL - 2024-12-09 13:34:57 --> [Caused by] mysqli_sql_exception: Unknown column 'bio' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE \'%a%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE \'%a%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE \'%a%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE :username: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\UserController.php(19): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->searchProfile()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+ERROR - 2024-12-09 13:34:59 --> mysqli_sql_exception: Unknown column 'bio' in 'field list' in D:\ilkom-22-paralel-2\TELL_ME\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\ilkom-22-paralel-2\TELL_ME\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `usernam...', 0)
+#1 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usernam...')
+#2 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usernam...')
+#3 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `usernam...', Array, false)
+#4 D:\ilkom-22-paralel-2\TELL_ME\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\ilkom-22-paralel-2\TELL_ME\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\ilkom-22-paralel-2\TELL_ME\app\Controllers\UserController.php(19): CodeIgniter\BaseModel->findAll()
+#7 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(933): App\Controllers\UserController->searchProfile()
+#8 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\ilkom-22-paralel-2\TELL_ME\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\ilkom-22-paralel-2\TELL_ME\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\ilkom-22-paralel-2\TELL_ME\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\ilkom-22-paralel-2\TELL_ME\system\rewrite.php(44): require_once('D:\\ilkom-22-par...')
+#14 {main}
+CRITICAL - 2024-12-09 13:34:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bio' in 'field list'
+[Method: GET, Route: search-profile]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE :username: ESCAPE \'!\'', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\UserController.php(19): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->searchProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+CRITICAL - 2024-12-09 13:34:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bio' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE \'%n%\' ESCAPE \'!\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE \'%n%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE :username: ESCAPE \'!\'', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\UserController.php(19): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->searchProfile()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+CRITICAL - 2024-12-09 13:34:59 --> [Caused by] mysqli_sql_exception: Unknown column 'bio' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE \'%n%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE \'%n%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE \'%n%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE :username: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\UserController.php(19): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->searchProfile()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+ERROR - 2024-12-09 13:35:03 --> mysqli_sql_exception: Unknown column 'bio' in 'field list' in D:\ilkom-22-paralel-2\TELL_ME\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\ilkom-22-paralel-2\TELL_ME\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `usernam...', 0)
+#1 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usernam...')
+#2 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usernam...')
+#3 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `usernam...', Array, false)
+#4 D:\ilkom-22-paralel-2\TELL_ME\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\ilkom-22-paralel-2\TELL_ME\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\ilkom-22-paralel-2\TELL_ME\app\Controllers\UserController.php(19): CodeIgniter\BaseModel->findAll()
+#7 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(933): App\Controllers\UserController->searchProfile()
+#8 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\ilkom-22-paralel-2\TELL_ME\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\ilkom-22-paralel-2\TELL_ME\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\ilkom-22-paralel-2\TELL_ME\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\ilkom-22-paralel-2\TELL_ME\system\rewrite.php(44): require_once('D:\\ilkom-22-par...')
+#14 {main}
+CRITICAL - 2024-12-09 13:35:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bio' in 'field list'
+[Method: GET, Route: search-profile]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE :username: ESCAPE \'!\'', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\UserController.php(19): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->searchProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+CRITICAL - 2024-12-09 13:35:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bio' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE \'%a%\' ESCAPE \'!\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE \'%a%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE :username: ESCAPE \'!\'', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\UserController.php(19): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->searchProfile()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+CRITICAL - 2024-12-09 13:35:03 --> [Caused by] mysqli_sql_exception: Unknown column 'bio' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE \'%a%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE \'%a%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE \'%a%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE :username: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\UserController.php(19): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->searchProfile()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 14:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-09 14:13:16 --> mysqli_sql_exception: Unknown column 'bio' in 'field list' in D:\ilkom-22-paralel-2\TELL_ME\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\ilkom-22-paralel-2\TELL_ME\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `usernam...', 0)
+#1 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usernam...')
+#2 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usernam...')
+#3 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `usernam...', Array, false)
+#4 D:\ilkom-22-paralel-2\TELL_ME\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\ilkom-22-paralel-2\TELL_ME\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\ilkom-22-paralel-2\TELL_ME\app\Controllers\UserController.php(19): CodeIgniter\BaseModel->findAll()
+#7 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(933): App\Controllers\UserController->searchProfile()
+#8 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\ilkom-22-paralel-2\TELL_ME\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\ilkom-22-paralel-2\TELL_ME\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\ilkom-22-paralel-2\TELL_ME\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\ilkom-22-paralel-2\TELL_ME\system\rewrite.php(44): require_once('D:\\ilkom-22-par...')
+#14 {main}
+CRITICAL - 2024-12-09 14:13:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bio' in 'field list'
+[Method: GET, Route: search-profile]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE :username: ESCAPE \'!\'', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\UserController.php(19): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->searchProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+CRITICAL - 2024-12-09 14:13:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bio' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE \'%b%\' ESCAPE \'!\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE \'%b%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE :username: ESCAPE \'!\'', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\UserController.php(19): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->searchProfile()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+CRITICAL - 2024-12-09 14:13:16 --> [Caused by] mysqli_sql_exception: Unknown column 'bio' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE \'%b%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE \'%b%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE \'%b%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE :username: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\UserController.php(19): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->searchProfile()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+ERROR - 2024-12-09 14:13:16 --> mysqli_sql_exception: Unknown column 'bio' in 'field list' in D:\ilkom-22-paralel-2\TELL_ME\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\ilkom-22-paralel-2\TELL_ME\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `usernam...', 0)
+#1 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usernam...')
+#2 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usernam...')
+#3 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `usernam...', Array, false)
+#4 D:\ilkom-22-paralel-2\TELL_ME\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\ilkom-22-paralel-2\TELL_ME\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\ilkom-22-paralel-2\TELL_ME\app\Controllers\UserController.php(19): CodeIgniter\BaseModel->findAll()
+#7 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(933): App\Controllers\UserController->searchProfile()
+#8 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\ilkom-22-paralel-2\TELL_ME\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\ilkom-22-paralel-2\TELL_ME\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\ilkom-22-paralel-2\TELL_ME\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\ilkom-22-paralel-2\TELL_ME\system\rewrite.php(44): require_once('D:\\ilkom-22-par...')
+#14 {main}
+CRITICAL - 2024-12-09 14:13:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bio' in 'field list'
+[Method: GET, Route: search-profile]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE :username: ESCAPE \'!\'', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\UserController.php(19): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->searchProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+CRITICAL - 2024-12-09 14:13:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bio' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE \'%bb%\' ESCAPE \'!\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE \'%bb%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE :username: ESCAPE \'!\'', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\UserController.php(19): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->searchProfile()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+CRITICAL - 2024-12-09 14:13:16 --> [Caused by] mysqli_sql_exception: Unknown column 'bio' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE \'%bb%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE \'%bb%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE \'%bb%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE :username: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\UserController.php(19): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->searchProfile()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+ERROR - 2024-12-09 14:13:17 --> mysqli_sql_exception: Unknown column 'bio' in 'field list' in D:\ilkom-22-paralel-2\TELL_ME\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\ilkom-22-paralel-2\TELL_ME\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `usernam...', 0)
+#1 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usernam...')
+#2 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usernam...')
+#3 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `usernam...', Array, false)
+#4 D:\ilkom-22-paralel-2\TELL_ME\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\ilkom-22-paralel-2\TELL_ME\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\ilkom-22-paralel-2\TELL_ME\app\Controllers\UserController.php(19): CodeIgniter\BaseModel->findAll()
+#7 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(933): App\Controllers\UserController->searchProfile()
+#8 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\ilkom-22-paralel-2\TELL_ME\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\ilkom-22-paralel-2\TELL_ME\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\ilkom-22-paralel-2\TELL_ME\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\ilkom-22-paralel-2\TELL_ME\system\rewrite.php(44): require_once('D:\\ilkom-22-par...')
+#14 {main}
+CRITICAL - 2024-12-09 14:13:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bio' in 'field list'
+[Method: GET, Route: search-profile]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE :username: ESCAPE \'!\'', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\UserController.php(19): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->searchProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+CRITICAL - 2024-12-09 14:13:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bio' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE \'%b%\' ESCAPE \'!\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE \'%b%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE :username: ESCAPE \'!\'', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\UserController.php(19): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->searchProfile()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+CRITICAL - 2024-12-09 14:13:17 --> [Caused by] mysqli_sql_exception: Unknown column 'bio' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE \'%b%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE \'%b%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE \'%b%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `bio`
+FROM `user`
+WHERE `username` LIKE :username: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\UserController.php(19): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->searchProfile()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')

@@ -115,3 +115,14 @@ body {
     font-size: 16px;
     color: #bbbbbb;
 }
+
+.logo a {
+    display: inline-block; /* Pastikan tautan mencakup area logo */
+    text-decoration: none; /* Hilangkan garis bawah tautan */
+}
+
+.logo a:hover img {
+    opacity: 0.8; /* Efek hover pada logo */
+    transform: scale(1.1); /* Zoom sedikit */
+    transition: all 0.3s ease; /* Animasi transisi */
+}
