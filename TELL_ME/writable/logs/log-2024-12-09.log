@@ -1643,3 +1643,1986 @@ INFO - 2024-12-09 12:49:17 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2024-12-09 12:49:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-12-09 12:49:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-12-09 12:49:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:26:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:35:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:35:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:43:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 14:43:07 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 14:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 14:43:10 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 14:43:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 14:43:11 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 14:43:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:43:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 14:43:14 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 14:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 14:45:55 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 14:45:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 14:45:56 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 14:46:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 14:46:53 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 14:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 14:46:54 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 14:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 14:46:54 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 14:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 14:46:54 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 14:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 14:46:54 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 14:47:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 14:47:20 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 14:47:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 14:47:21 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 14:47:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 14:47:36 --> ParseError: syntax error, unexpected token "endforeach", expecting end of file
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 98.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 3 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 14:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 14:47:45 --> ErrorException: Undefined variable $post
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 77.
+ 1 APPPATH\Views\auth\ds.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $post', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 77)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 14:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 14:48:04 --> ErrorException: Undefined variable $post
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 77.
+ 1 APPPATH\Views\auth\ds.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $post', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 77)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 14:49:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 14:49:44 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 14:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 14:51:02 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 14:51:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 14:51:03 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 14:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 14:52:19 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 14:52:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 14:52:20 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 14:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 14:53:54 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 14:53:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 14:53:56 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 14:54:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 14:54:05 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 14:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 14:54:07 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 14:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 14:54:08 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 14:54:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:54:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 14:54:10 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 14:54:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:54:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 14:54:16 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 14:54:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:54:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 14:54:16 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 14:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 14:55:31 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 14:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 14:57:05 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 14:57:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 14:57:12 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 15:00:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 15:00:38 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 15:14:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 15:14:28 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 15:14:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 15:14:29 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 15:17:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 15:17:27 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 15:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 15:17:35 --> ErrorException: Undefined variable $post
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $post', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 15:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 15:17:44 --> ErrorException: Undefined variable $post
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $post', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 15:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 15:18:54 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 15:19:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 15:19:47 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 15:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 15:19:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 15:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 15:19:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 15:19:54 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 15:20:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 15:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 15:20:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 15:20:16 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 15:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 15:20:23 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 15:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 15:31:06 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 15:31:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 15:31:07 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 15:31:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 15:31:07 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 15:37:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 15:37:32 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 15:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 15:38:17 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: HomeController/index]
+in APPPATH\Views\auth\ds.php on line 77.
+ 1 APPPATH\Views\auth\ds.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 77)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\HomeController.php(17): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 15:39:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 15:39:07 --> ErrorException: Undefined array key "username"
+[Method: GET, Route: HomeController/index]
+in APPPATH\Views\auth\ds.php on line 81.
+ 1 APPPATH\Views\auth\ds.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 81)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\HomeController.php(17): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 15:40:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 15:40:14 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: HomeController/index]
+in APPPATH\Views\auth\ds.php on line 89.
+ 1 APPPATH\Views\auth\ds.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 89)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\HomeController.php(17): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 15:40:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 15:40:40 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: HomeController/index]
+in APPPATH\Views\auth\ds.php on line 89.
+ 1 APPPATH\Views\auth\ds.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 89)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\HomeController.php(17): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 15:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 15:40:43 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: HomeController/index]
+in APPPATH\Views\auth\ds.php on line 93.
+ 1 APPPATH\Views\auth\ds.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 93)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\HomeController.php(17): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 15:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 15:41:04 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: HomeController/index]
+in APPPATH\Views\auth\ds.php on line 95.
+ 1 APPPATH\Views\auth\ds.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 95)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\HomeController.php(17): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 15:41:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 15:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 15:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-09 15:42:14 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in D:\ilkom-22-paralel-2\TELL_ME\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\ilkom-22-paralel-2\TELL_ME\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `po...', 0)
+#1 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 D:\ilkom-22-paralel-2\TELL_ME\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ilkom-22-paralel-2\TELL_ME\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\ilkom-22-paralel-2\TELL_ME\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\ilkom-22-paralel-2\TELL_ME\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 D:\ilkom-22-paralel-2\TELL_ME\app\Controllers\PostController.php(26): CodeIgniter\BaseModel->save(Array)
+#9 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(933): App\Controllers\PostController->create()
+#10 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#11 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\ilkom-22-paralel-2\TELL_ME\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 D:\ilkom-22-paralel-2\TELL_ME\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 D:\ilkom-22-paralel-2\TELL_ME\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 D:\ilkom-22-paralel-2\TELL_ME\system\rewrite.php(44): require_once('D:\\ilkom-22-par...')
+#16 {main}
+CRITICAL - 2024-12-09 15:42:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+[Method: POST, Route: post/create]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (:user_id:, :content:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\PostController.php(26): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+CRITICAL - 2024-12-09 15:42:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'oi\', \'2024-12-09 15:42:14\', \'2024-12-09 15:42:14\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'oi\', \'2024-12-09 15:42:14\', \'2024-12-09 15:42:14\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (:user_id:, :content:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\PostController.php(26): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->create()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+CRITICAL - 2024-12-09 15:42:14 --> [Caused by] mysqli_sql_exception: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'oi\', \'2024-12-09 15:42:14\', \'2024-12-09 15:42:14\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'oi\', \'2024-12-09 15:42:14\', \'2024-12-09 15:42:14\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'oi\', \'2024-12-09 15:42:14\', \'2024-12-09 15:42:14\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (:user_id:, :content:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\PostController.php(26): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->create()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 15:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 15:46:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-09 15:46:03 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in D:\ilkom-22-paralel-2\TELL_ME\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\ilkom-22-paralel-2\TELL_ME\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `po...', 0)
+#1 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 D:\ilkom-22-paralel-2\TELL_ME\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ilkom-22-paralel-2\TELL_ME\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\ilkom-22-paralel-2\TELL_ME\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\ilkom-22-paralel-2\TELL_ME\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 D:\ilkom-22-paralel-2\TELL_ME\app\Controllers\PostController.php(26): CodeIgniter\BaseModel->save(Array)
+#9 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(933): App\Controllers\PostController->create()
+#10 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#11 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\ilkom-22-paralel-2\TELL_ME\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 D:\ilkom-22-paralel-2\TELL_ME\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 D:\ilkom-22-paralel-2\TELL_ME\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 D:\ilkom-22-paralel-2\TELL_ME\system\rewrite.php(44): require_once('D:\\ilkom-22-par...')
+#16 {main}
+CRITICAL - 2024-12-09 15:46:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+[Method: POST, Route: post/create]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (:user_id:, :content:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\PostController.php(26): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+CRITICAL - 2024-12-09 15:46:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'haii\', \'2024-12-09 15:46:03\', \'2024-12-09 15:46:03\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'haii\', \'2024-12-09 15:46:03\', \'2024-12-09 15:46:03\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (:user_id:, :content:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\PostController.php(26): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->create()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+CRITICAL - 2024-12-09 15:46:03 --> [Caused by] mysqli_sql_exception: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'haii\', \'2024-12-09 15:46:03\', \'2024-12-09 15:46:03\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'haii\', \'2024-12-09 15:46:03\', \'2024-12-09 15:46:03\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'haii\', \'2024-12-09 15:46:03\', \'2024-12-09 15:46:03\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (:user_id:, :content:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\PostController.php(26): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->create()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 15:50:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-09 15:50:04 --> mysqli_sql_exception: Column 'user_id' cannot be null in D:\ilkom-22-paralel-2\TELL_ME\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\ilkom-22-paralel-2\TELL_ME\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `po...', 0)
+#1 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 D:\ilkom-22-paralel-2\TELL_ME\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ilkom-22-paralel-2\TELL_ME\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\ilkom-22-paralel-2\TELL_ME\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\ilkom-22-paralel-2\TELL_ME\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 D:\ilkom-22-paralel-2\TELL_ME\app\Controllers\PostController.php(26): CodeIgniter\BaseModel->save(Array)
+#9 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(933): App\Controllers\PostController->create()
+#10 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#11 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\ilkom-22-paralel-2\TELL_ME\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 D:\ilkom-22-paralel-2\TELL_ME\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 D:\ilkom-22-paralel-2\TELL_ME\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 D:\ilkom-22-paralel-2\TELL_ME\system\rewrite.php(44): require_once('D:\\ilkom-22-par...')
+#16 {main}
+CRITICAL - 2024-12-09 15:50:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+[Method: POST, Route: post/create]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (:user_id:, :content:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\PostController.php(26): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+CRITICAL - 2024-12-09 15:50:04 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'haii\', \'2024-12-09 15:50:04\', \'2024-12-09 15:50:04\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'haii\', \'2024-12-09 15:50:04\', \'2024-12-09 15:50:04\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (:user_id:, :content:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\PostController.php(26): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->create()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+CRITICAL - 2024-12-09 15:50:04 --> [Caused by] mysqli_sql_exception: Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'haii\', \'2024-12-09 15:50:04\', \'2024-12-09 15:50:04\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'haii\', \'2024-12-09 15:50:04\', \'2024-12-09 15:50:04\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'haii\', \'2024-12-09 15:50:04\', \'2024-12-09 15:50:04\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (:user_id:, :content:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\PostController.php(26): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->create()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 15:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-09 15:50:56 --> mysqli_sql_exception: Column 'user_id' cannot be null in D:\ilkom-22-paralel-2\TELL_ME\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\ilkom-22-paralel-2\TELL_ME\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `po...', 0)
+#1 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 D:\ilkom-22-paralel-2\TELL_ME\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ilkom-22-paralel-2\TELL_ME\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\ilkom-22-paralel-2\TELL_ME\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\ilkom-22-paralel-2\TELL_ME\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 D:\ilkom-22-paralel-2\TELL_ME\app\Controllers\PostController.php(26): CodeIgniter\BaseModel->save(Array)
+#9 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(933): App\Controllers\PostController->create()
+#10 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#11 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\ilkom-22-paralel-2\TELL_ME\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 D:\ilkom-22-paralel-2\TELL_ME\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 D:\ilkom-22-paralel-2\TELL_ME\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 D:\ilkom-22-paralel-2\TELL_ME\system\rewrite.php(44): require_once('D:\\ilkom-22-par...')
+#16 {main}
+CRITICAL - 2024-12-09 15:50:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+[Method: POST, Route: post/create]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (:user_id:, :content:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\PostController.php(26): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+CRITICAL - 2024-12-09 15:50:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'haii\', \'2024-12-09 15:50:56\', \'2024-12-09 15:50:56\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'haii\', \'2024-12-09 15:50:56\', \'2024-12-09 15:50:56\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (:user_id:, :content:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\PostController.php(26): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->create()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+CRITICAL - 2024-12-09 15:50:56 --> [Caused by] mysqli_sql_exception: Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'haii\', \'2024-12-09 15:50:56\', \'2024-12-09 15:50:56\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'haii\', \'2024-12-09 15:50:56\', \'2024-12-09 15:50:56\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'haii\', \'2024-12-09 15:50:56\', \'2024-12-09 15:50:56\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (:user_id:, :content:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\PostController.php(26): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->create()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 15:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 15:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 15:50:58 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 15:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 15:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 15:50:58 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 15:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 15:52:00 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 15:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 15:52:01 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 15:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 15:52:01 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 15:52:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 15:52:13 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 15:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 15:52:14 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 15:52:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 15:52:20 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 15:53:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 15:53:39 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 15:53:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 15:53:40 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 15:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 15:54:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 15:54:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 15:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 15:54:49 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 15:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 15:54:50 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 15:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 15:54:50 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(68): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 15:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 15:58:23 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(76): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 15:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 15:58:24 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(76): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 15:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 15:58:25 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(76): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 15:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 15:58:25 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(76): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 15:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 15:58:25 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(76): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 15:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 15:58:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 15:58:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 15:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 15:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 15:59:00 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(76): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 15:59:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:00:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 16:00:32 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(69): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 16:00:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 16:00:33 --> ErrorException: Undefined variable $posts
+[Method: GET, Route: auth/ds]
+in APPPATH\Views\auth\ds.php on line 76.
+ 1 APPPATH\Views\auth\ds.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php', 76)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\ilkom-22-paralel-2\\TELL_ME\\app\\Views\\auth\\ds.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/ds', [], true)
+ 5 APPPATH\Controllers\Auth.php(69): view('auth/ds', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 16:00:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:00:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:00:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:00:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:01:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:01:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:13:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:13:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:14:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:14:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:14:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-09 16:14:28 --> mysqli_sql_exception: Column 'user_id' cannot be null in D:\ilkom-22-paralel-2\TELL_ME\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\ilkom-22-paralel-2\TELL_ME\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `po...', 0)
+#1 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 D:\ilkom-22-paralel-2\TELL_ME\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ilkom-22-paralel-2\TELL_ME\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\ilkom-22-paralel-2\TELL_ME\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\ilkom-22-paralel-2\TELL_ME\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 D:\ilkom-22-paralel-2\TELL_ME\app\Controllers\PostController.php(27): CodeIgniter\BaseModel->save(Array)
+#9 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(933): App\Controllers\PostController->create()
+#10 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#11 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\ilkom-22-paralel-2\TELL_ME\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 D:\ilkom-22-paralel-2\TELL_ME\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 D:\ilkom-22-paralel-2\TELL_ME\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 D:\ilkom-22-paralel-2\TELL_ME\system\rewrite.php(44): require_once('D:\\ilkom-22-par...')
+#16 {main}
+CRITICAL - 2024-12-09 16:14:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+[Method: POST, Route: post/create]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (:user_id:, :content:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\PostController.php(27): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+CRITICAL - 2024-12-09 16:14:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'alo\', \'2024-12-09 16:14:27\', \'2024-12-09 16:14:27\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'alo\', \'2024-12-09 16:14:27\', \'2024-12-09 16:14:27\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (:user_id:, :content:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\PostController.php(27): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->create()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+CRITICAL - 2024-12-09 16:14:28 --> [Caused by] mysqli_sql_exception: Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'alo\', \'2024-12-09 16:14:27\', \'2024-12-09 16:14:27\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'alo\', \'2024-12-09 16:14:27\', \'2024-12-09 16:14:27\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'alo\', \'2024-12-09 16:14:27\', \'2024-12-09 16:14:27\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (:user_id:, :content:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\PostController.php(27): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->create()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 16:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-09 16:18:30 --> mysqli_sql_exception: Column 'user_id' cannot be null in D:\ilkom-22-paralel-2\TELL_ME\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\ilkom-22-paralel-2\TELL_ME\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `po...', 0)
+#1 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 D:\ilkom-22-paralel-2\TELL_ME\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ilkom-22-paralel-2\TELL_ME\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\ilkom-22-paralel-2\TELL_ME\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\ilkom-22-paralel-2\TELL_ME\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 D:\ilkom-22-paralel-2\TELL_ME\app\Controllers\PostController.php(29): CodeIgniter\BaseModel->save(Array)
+#9 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(933): App\Controllers\PostController->create()
+#10 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#11 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\ilkom-22-paralel-2\TELL_ME\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 D:\ilkom-22-paralel-2\TELL_ME\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 D:\ilkom-22-paralel-2\TELL_ME\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 D:\ilkom-22-paralel-2\TELL_ME\system\rewrite.php(44): require_once('D:\\ilkom-22-par...')
+#16 {main}
+CRITICAL - 2024-12-09 16:18:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+[Method: POST, Route: post/create]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (:user_id:, :content:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\PostController.php(29): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+CRITICAL - 2024-12-09 16:18:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'alo\', \'2024-12-09 16:18:30\', \'2024-12-09 16:18:30\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'alo\', \'2024-12-09 16:18:30\', \'2024-12-09 16:18:30\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (:user_id:, :content:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\PostController.php(29): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->create()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+CRITICAL - 2024-12-09 16:18:30 --> [Caused by] mysqli_sql_exception: Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'alo\', \'2024-12-09 16:18:30\', \'2024-12-09 16:18:30\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'alo\', \'2024-12-09 16:18:30\', \'2024-12-09 16:18:30\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'alo\', \'2024-12-09 16:18:30\', \'2024-12-09 16:18:30\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (:user_id:, :content:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\PostController.php(29): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->create()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 16:18:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:18:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-09 16:18:33 --> mysqli_sql_exception: Column 'user_id' cannot be null in D:\ilkom-22-paralel-2\TELL_ME\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\ilkom-22-paralel-2\TELL_ME\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `po...', 0)
+#1 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 D:\ilkom-22-paralel-2\TELL_ME\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ilkom-22-paralel-2\TELL_ME\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\ilkom-22-paralel-2\TELL_ME\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\ilkom-22-paralel-2\TELL_ME\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 D:\ilkom-22-paralel-2\TELL_ME\app\Controllers\PostController.php(29): CodeIgniter\BaseModel->save(Array)
+#9 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(933): App\Controllers\PostController->create()
+#10 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#11 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\ilkom-22-paralel-2\TELL_ME\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 D:\ilkom-22-paralel-2\TELL_ME\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 D:\ilkom-22-paralel-2\TELL_ME\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 D:\ilkom-22-paralel-2\TELL_ME\system\rewrite.php(44): require_once('D:\\ilkom-22-par...')
+#16 {main}
+CRITICAL - 2024-12-09 16:18:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+[Method: POST, Route: post/create]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (:user_id:, :content:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\PostController.php(29): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+CRITICAL - 2024-12-09 16:18:33 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'alo\', \'2024-12-09 16:18:33\', \'2024-12-09 16:18:33\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'alo\', \'2024-12-09 16:18:33\', \'2024-12-09 16:18:33\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (:user_id:, :content:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\PostController.php(29): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->create()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+CRITICAL - 2024-12-09 16:18:33 --> [Caused by] mysqli_sql_exception: Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'alo\', \'2024-12-09 16:18:33\', \'2024-12-09 16:18:33\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'alo\', \'2024-12-09 16:18:33\', \'2024-12-09 16:18:33\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'alo\', \'2024-12-09 16:18:33\', \'2024-12-09 16:18:33\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (:user_id:, :content:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\PostController.php(29): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->create()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 16:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:19:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-09 16:19:01 --> mysqli_sql_exception: Column 'user_id' cannot be null in D:\ilkom-22-paralel-2\TELL_ME\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\ilkom-22-paralel-2\TELL_ME\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `po...', 0)
+#1 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 D:\ilkom-22-paralel-2\TELL_ME\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ilkom-22-paralel-2\TELL_ME\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\ilkom-22-paralel-2\TELL_ME\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\ilkom-22-paralel-2\TELL_ME\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 D:\ilkom-22-paralel-2\TELL_ME\app\Controllers\PostController.php(29): CodeIgniter\BaseModel->save(Array)
+#9 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(933): App\Controllers\PostController->create()
+#10 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#11 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\ilkom-22-paralel-2\TELL_ME\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 D:\ilkom-22-paralel-2\TELL_ME\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 D:\ilkom-22-paralel-2\TELL_ME\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 D:\ilkom-22-paralel-2\TELL_ME\system\rewrite.php(44): require_once('D:\\ilkom-22-par...')
+#16 {main}
+CRITICAL - 2024-12-09 16:19:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+[Method: POST, Route: post/create]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (:user_id:, :content:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\PostController.php(29): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+CRITICAL - 2024-12-09 16:19:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'alo\', \'2024-12-09 16:19:01\', \'2024-12-09 16:19:01\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'alo\', \'2024-12-09 16:19:01\', \'2024-12-09 16:19:01\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (:user_id:, :content:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\PostController.php(29): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->create()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+CRITICAL - 2024-12-09 16:19:01 --> [Caused by] mysqli_sql_exception: Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'alo\', \'2024-12-09 16:19:01\', \'2024-12-09 16:19:01\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'alo\', \'2024-12-09 16:19:01\', \'2024-12-09 16:19:01\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'alo\', \'2024-12-09 16:19:01\', \'2024-12-09 16:19:01\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (:user_id:, :content:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\PostController.php(29): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->create()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 16:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-09 16:20:54 --> mysqli_sql_exception: Column 'user_id' cannot be null in D:\ilkom-22-paralel-2\TELL_ME\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\ilkom-22-paralel-2\TELL_ME\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `po...', 0)
+#1 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 D:\ilkom-22-paralel-2\TELL_ME\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ilkom-22-paralel-2\TELL_ME\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\ilkom-22-paralel-2\TELL_ME\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\ilkom-22-paralel-2\TELL_ME\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 D:\ilkom-22-paralel-2\TELL_ME\app\Controllers\PostController.php(29): CodeIgniter\BaseModel->save(Array)
+#9 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(933): App\Controllers\PostController->create()
+#10 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#11 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\ilkom-22-paralel-2\TELL_ME\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 D:\ilkom-22-paralel-2\TELL_ME\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 D:\ilkom-22-paralel-2\TELL_ME\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 D:\ilkom-22-paralel-2\TELL_ME\system\rewrite.php(44): require_once('D:\\ilkom-22-par...')
+#16 {main}
+CRITICAL - 2024-12-09 16:20:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+[Method: POST, Route: post/create]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (:user_id:, :content:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\PostController.php(29): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+CRITICAL - 2024-12-09 16:20:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'alo\', \'2024-12-09 16:20:53\', \'2024-12-09 16:20:53\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'alo\', \'2024-12-09 16:20:53\', \'2024-12-09 16:20:53\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (:user_id:, :content:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\PostController.php(29): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->create()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+CRITICAL - 2024-12-09 16:20:54 --> [Caused by] mysqli_sql_exception: Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'alo\', \'2024-12-09 16:20:53\', \'2024-12-09 16:20:53\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'alo\', \'2024-12-09 16:20:53\', \'2024-12-09 16:20:53\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'alo\', \'2024-12-09 16:20:53\', \'2024-12-09 16:20:53\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (:user_id:, :content:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\PostController.php(29): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->create()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 16:20:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:20:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:20:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-09 16:21:03 --> mysqli_sql_exception: Column 'user_id' cannot be null in D:\ilkom-22-paralel-2\TELL_ME\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\ilkom-22-paralel-2\TELL_ME\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `po...', 0)
+#1 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 D:\ilkom-22-paralel-2\TELL_ME\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 D:\ilkom-22-paralel-2\TELL_ME\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ilkom-22-paralel-2\TELL_ME\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\ilkom-22-paralel-2\TELL_ME\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\ilkom-22-paralel-2\TELL_ME\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 D:\ilkom-22-paralel-2\TELL_ME\app\Controllers\PostController.php(29): CodeIgniter\BaseModel->save(Array)
+#9 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(933): App\Controllers\PostController->create()
+#10 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#11 D:\ilkom-22-paralel-2\TELL_ME\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\ilkom-22-paralel-2\TELL_ME\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 D:\ilkom-22-paralel-2\TELL_ME\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 D:\ilkom-22-paralel-2\TELL_ME\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 D:\ilkom-22-paralel-2\TELL_ME\system\rewrite.php(44): require_once('D:\\ilkom-22-par...')
+#16 {main}
+CRITICAL - 2024-12-09 16:21:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+[Method: POST, Route: post/create]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (:user_id:, :content:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\PostController.php(29): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+CRITICAL - 2024-12-09 16:21:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'waw\', \'2024-12-09 16:21:03\', \'2024-12-09 16:21:03\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'waw\', \'2024-12-09 16:21:03\', \'2024-12-09 16:21:03\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (:user_id:, :content:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\PostController.php(29): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->create()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+CRITICAL - 2024-12-09 16:21:03 --> [Caused by] mysqli_sql_exception: Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'waw\', \'2024-12-09 16:21:03\', \'2024-12-09 16:21:03\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'waw\', \'2024-12-09 16:21:03\', \'2024-12-09 16:21:03\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (NULL, \'waw\', \'2024-12-09 16:21:03\', \'2024-12-09 16:21:03\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `posts` (`user_id`, `content`, `created_at`, `updated_at`) VALUES (:user_id:, :content:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\PostController.php(29): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PostController->create()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('D:\\ilkom-22-paralel-2\\TELL_ME\\public\\index.php')
+INFO - 2024-12-09 16:22:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:22:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:22:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:27:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:35:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:35:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:35:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:35:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 16:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -44,7 +44,7 @@ $routes->post('/profile/update', 'Profile::update');
 $routes->get('notif/index', 'Notif::index');
 $routes->get('notif/markAsRead/(:num)', 'Notif::markAsRead/$1');
 $routes->get('notif/delete/(:num)', 'Notif::delete/$1');
-
+$routes->post('/post/create', 'PostController::create');
 
 // Rute 404
 $routes->set404Override(function () {

@@ -28,6 +28,20 @@
         padding: 0;
         margin: 0;
     }
+    .no-posts-message {
+    display: inline-block; /* Agar kotak sesuai dengan ukuran teks */
+    padding: 10px 20px;    /* Ruang di dalam kotak */
+    background-color: #f0f0f0; /* Warna latar kotak */
+    border: 1px solid #ccc;    /* Border tipis */
+    border-radius: 5px;        /* Sudut membulat */
+    color: #333;               /* Warna teks */
+    font-family: Arial, sans-serif; /* Gaya font */
+    font-size: 16px;           /* Ukuran font */
+    text-align: center;        /* Teks rata tengah */
+    margin: 20px auto;         /* Jarak dari elemen lain */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+}
+    
     </style>
 </head>
 <body> 
@@ -66,36 +80,43 @@
                 <div class="story"></div>
                 <div class="story"></div>
             </div>
-            <div class="post-input">
-                <form id="post-form">
-                    <input type="text" id="post-text" placeholder="What's on your mind?">
-                    <button type="submit">+</button>
-                </form>
-            </div>
-            <div class="posts">
-                <div class="post" data-id="1">
-                    <div class="post-header">
-                        <div class="post-avatar"></div>
-                        <div class="post-user">
-                            <span class="user-name">John Doe</span>
-                            <span class="post-time">2h ago</span>
-                        </div>
-                    </div>
-                    <div class="post-content">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </div>
-                    <div class="post-footer">
-                        <span class="like" onclick="handleLike(1)"><i class="fas fa-thumbs-up"></i> Like</span>
-                        <span class="comment" onclick="toggleCommentSection(1)"><i class="fas fa-comment"></i> Comment</span>
-                        <span class="share"><i class="fas fa-share"></i> Share</span>
-                    </div>
-                    <div class="comments-section" id="comments-1" style="display: none;">
-                        <div class="comments-list" id="comments-list-1"></div>
-                        <input type="text" class="comment-input" id="comment-input-1" placeholder="Add a comment..." onkeypress="handleComment(event, 1)">
+        <div class="post-input">
+            <form id="post-form" method="POST" action="<?= base_url('post/create') ?>">
+                <input type="text" id="post-text" name="post_text" placeholder="What's on your mind?" required>
+                <button type="submit">+</button>
+            </form>
+        </div>
+        <div class="posts">
+        <?php if (empty($posts)): ?>
+            <div class="no-posts-message">
+            Gak ada post :C
+        </div>
+    <?php else: ?>
+        <?php foreach ($posts as $post): ?>
+            <div class="post" data-id="<?= $post['post_id'] ?>">
+                <div class="post-header">
+                    <div class="post-avatar"></div>
+                    <div class="post-user">
+                        <span class="user-name"><?= $post['username'] ?></span>
+                        <span class="post-time"><?= $post['created_at'] ?></span>
                     </div>
                 </div>
-                <!-- Tambahkan lebih banyak post di sini jika perlu -->
+                <div class="post-content">
+                    <?= $post['content'] ?>
+                </div>
+                <div class="post-footer">
+                    <span class="like" onclick="handleLike(<?= $post['post_id'] ?>)"><i class="fas fa-thumbs-up"></i> Like</span>
+                    <span class="comment" onclick="toggleCommentSection(<?= $post['post_id'] ?>)"><i class="fas fa-comment"></i> Comment</span>
+                    <span class="share"><i class="fas fa-share"></i> Share</span>
+                </div>
+                <div class="comments-section" id="comments-<?= $post['post_id'] ?>" style="display: none;">
+                    <div class="comments-list" id="comments-list-<?= $post['post_id'] ?>"></div>
+                    <input type="text" class="comment-input" id="comment-input-<?= $post['post_id'] ?>" placeholder="Add a comment..." onkeypress="handleComment(event, <?= $post['post_id'] ?>)">
+                </div>
             </div>
+        <?php endforeach; ?>
+    <?php endif; ?>
+</div>
         </main>
         <aside class="right-sidebar">
             <div class="messages-section">

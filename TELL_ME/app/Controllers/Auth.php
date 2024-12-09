@@ -2,6 +2,7 @@
 
 use CodeIgniter\Controller;
 use App\Models\UserModel;
+use App\Models\PostModel;
 
 class Auth extends Controller
 {
@@ -38,6 +39,7 @@ class Auth extends Controller
         if ($user && password_verify($password, $user['password'])) {
             // Simpan data pengguna ke dalam session
             $session->set([
+                'user_id'=> $user['user_id'],
                 'username' => $user['username'],
                 'email' => $user['email'],
                 'isLoggedIn' => true,
@@ -54,6 +56,13 @@ class Auth extends Controller
 
     public function dashboard()
     {
+        $model = new PostModel();
+        $posts = $model->select('posts.*, user.username') // Select fields from posts and username from users
+            ->join('user', 'user.user_id = posts.user_id')  // Join users table on user_id
+            ->findAll();
+    
+        return view('auth/ds', ['posts' => $posts]);
+
         $session = session();
         if (!$session->get('isLoggedIn')) {
         // Redirect hanya jika pengguna belum login
