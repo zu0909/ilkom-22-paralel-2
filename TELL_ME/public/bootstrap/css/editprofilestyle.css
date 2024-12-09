@@ -1,0 +1,113 @@
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: rgba(44, 44, 44, 0.9); /* Transparansi untuk menonjolkan container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+/* Title styles */
+h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/* Form styles */
+.profile-edit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #555555;
+    background-color: #3c3c3c;
+    color: #ffffff;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #777777;
+}
+
+.form-group textarea {
+    resize: none;
+}
+
+/* Flash message styles */
+.alert {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.alert-success {
+    background-color: #28a745;
+    color: #ffffff;
+}
+
+.alert-danger {
+    background-color: #dc3545;
+    color: #ffffff;
+}
+
+/* Button styles */
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.btn.save-btn {
+    background-color: #007bff;
+}
+
+.btn.save-btn:hover {
+    background-color: #0056b3;
+}
+
+.btn.cancel-btn {
+    background-color: #dc3545;
+}
+
+.btn.cancel-btn:hover {
+    background-color: #a71d2a;
+}
+
+.profile-banner {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}

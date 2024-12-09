@@ -35,39 +35,37 @@ class Profile extends BaseController
     }
 
     public function edit()
-    {
-        // Ambil ID pengguna dari session
-        $userId = session()->get('user_id');
-    
-        // Inisialisasi model pengguna
-        $userModel = new UserModel;
-    
-        // Ambil data pengguna dari database
-        $user = $userModel->find($userId);
-    
-    
-       // Kirim data pengguna ke tampilan
-        $data['username'] = $user['username'] ?? ''; // Ambil username dari database, gunakan default jika tidak ada
-        $data['email'] = $user['email'] ?? '';       // Ambil email dari database, gunakan default jika tidak ada
-        $data['bio'] = $user['bio'] ?? '';           // Ambil bio dari database, gunakan default jika tidak ada
-        $data['profile_picture'] = $user['profile_picture'] ?? ''; // Ambil g
-    
-        return view('profile/edit', $data);
-    }
-    
-    public function update()
 {
-    $userId = session()->get('user_id'); // Ambil ID pengguna dari session
+    // Ambil username dari session
+    $username = session()->get('username');
+    
+    // Inisialisasi model pengguna
+    $userModel = new UserModel;
+    
+    // Ambil data pengguna dari database berdasarkan username
+    $user = $userModel->where('username', $username)->first();
+    
+    // Kirim data pengguna ke tampilan
+    $data['username'] = $user['username'] ?? ''; // Ambil username dari database, gunakan default jika tidak ada
+    $data['email'] = $user['email'] ?? '';       // Ambil email dari database, gunakan default jika tidak ada
+    $data['bio'] = $user['bio'] ?? '';           // Ambil bio dari database, gunakan default jika tidak ada
+    $data['profile_picture'] = $user['profile_picture'] ?? ''; // Ambil gambar profil
+    
+    return view('profile/edit', $data);
+}
+
+public function update()
+{
+    // Ambil username dari session
+    $username = session()->get('username'); // Ambil username dari session
     $userModel = new UserModel();
 
     // Ambil data dari form
-    $username = $this->request->getPost('username');
     $bio = $this->request->getPost('bio');
 
     // Validasi input
     $validation = \Config\Services::validation();
     $validation->setRules([
-        'username' => 'required|min_length[3]|max_length[50]',
         'bio' => 'permit_empty|max_length[255]',
         'profile_picture' => 'mime_in[profile_picture,image/jpg,image/jpeg,image/gif,image/png]|max_size[profile_picture,2048]'
     ]);
@@ -82,20 +80,36 @@ class Profile extends BaseController
     $profilePicture = $this->request->getFile('profile_picture');
     if ($profilePicture->isValid() && !$profilePicture->hasMoved()) {
         $newName = $profilePicture->getRandomName();
-        $profilePicture->move(WRITEPATH . 'uploads', $newName);
-        $profilePicturePath = 'uploads/' . $newName;
+        if ($profilePicture->move(WRITEPATH . 'uploads', $newName)) {
+            $profilePicturePath = 'uploads/' . $newName;
+        } else {
+            // Jika gagal memindahkan file, gunakan gambar lama
+            log_message('error', 'Failed to move uploaded file.');
+            $user = $userModel->where('username', $username)->first();
+            $profilePicturePath = $user['profile_picture'];
+        }
     } else {
         // Jika tidak ada gambar baru, gunakan gambar lama
-        $user = $userModel->find($userId);
+        $user = $userModel->where('username', $username)->first();
         $profilePicturePath = $user['profile_picture'];
     }
 
-    // Update data pengguna dengan menggunakan where
-    $userModel->where('user_id', $userId)->set([
-        'username' => $username,
+    // Update data pengguna
+    $updateResult = $userModel->where('username', $username)->set([
         'bio' => $bio,
         'profile_picture' => $profilePicturePath
     ])->update();
+
+    if (!$updateResult) {
+        log_message('error', 'Failed to update user profile.');
+        return redirect()->back()->with('errors', ['Failed to update profile.']);
+    }
+
+    // Perbarui session dengan data baru
+    session()->set([
+        'bio' => $bio,
+        'profile_picture' => $profilePicturePath // Jika Anda ingin menyimpan gambar profil baru di session
+    ]);
 
     // Redirect ke halaman profil setelah update
     return redirect()->to('/profile')->with('success', 'Profile updated successfully.');
