@@ -105,15 +105,45 @@
                     <?= $post['content'] ?>
                 </div>
                 <div class="post-footer">
-                    <span class="like" onclick="handleLike(<?= $post['post_id'] ?>)"><i class="fas fa-thumbs-up"></i> Like</span>
+                                <span class="like" onclick="window.location.href='<?= base_url('post/like/'.$post['post_id']) ?>'">
+                                <i class="fas fa-thumbs-up"></i> 
+                                Like (<?= $post['like_count'] ?>)
+                                </span>
                     <span class="comment" onclick="toggleCommentSection(<?= $post['post_id'] ?>)"><i class="fas fa-comment"></i> Comment</span>
-                    <span class="share"><i class="fas fa-share"></i> Share</span>
+                    <span class="share">
+                        <i class="fas fa-share"></i> 
+                        <a href="#" onclick="copyToClipboard('<?= base_url('post/share/'.$post['post_id']) ?>')" style="text-decoration: none; color: inherit;">Share</a>
+
+                    </span>
+
                 </div>
                 <div class="comments-section" id="comments-<?= $post['post_id'] ?>" style="display: none;">
                     <div class="comments-list" id="comments-list-<?= $post['post_id'] ?>"></div>
                     <input type="text" class="comment-input" id="comment-input-<?= $post['post_id'] ?>" placeholder="Add a comment..." onkeypress="handleComment(event, <?= $post['post_id'] ?>)">
                 </div>
             </div>
+            <hr class="comment-separator">
+                            <!-- Comment Section -->
+                            <div class="comments-section" id="comments-<?= $post['post_id'] ?>" style="display: none;">
+                    <!-- Display Comments -->
+                    <div class="comments-list" id="comments-list-<?= $post['post_id'] ?>">
+    <?php if (!empty($post['comments'])): ?>
+        <?php foreach ($post['comments'] as $comment): ?>
+            <div class="comment">
+                <strong><?= $comment['username'] ?>:</strong>
+                <p><?= $comment['content'] ?></p>
+                <small><?= $comment['created_at'] ?></small>
+            </div>
+        <?php endforeach; ?>
+    <?php else: ?>
+        <p>No comments yet.</p>
+    <?php endif; ?>
+</div>
+
+
+                    <!-- Comment Input Form -->
+                    <input type="text" class="comment-input" id="comment-input-<?= $post['post_id'] ?>" placeholder="Add a comment..." onkeypress="handleComment(event, <?= $post['post_id'] ?>)">
+                </div>
         <?php endforeach; ?>
     <?php endif; ?>
 </div>
@@ -135,5 +165,69 @@
         </aside>
     </div>
     <script src="script.js"></script>
+
+    <script>
+function copyToClipboard(link) {
+    // Create a temporary input element
+    const tempInput = document.createElement("input");
+    document.body.appendChild(tempInput);
+    tempInput.value = link; // Set value to the link to share
+    tempInput.select(); // Select the text in the input
+    document.execCommand('copy'); // Copy the selected text to clipboard
+    document.body.removeChild(tempInput); // Clean up the temporary input
+
+    // Optionally, show a confirmation message
+    alert("Link copied to clipboard!");
+}
+
+function toggleCommentSection(postId) {
+    var commentSection = document.getElementById('comments-' + postId);
+    // Toggle visibility of the comment section
+    if (commentSection.style.display === "none") {
+        commentSection.style.display = "block";
+    } else {
+        commentSection.style.display = "none";
+    }
+}
+
+function handleComment(event, postId) {
+    if (event.key === 'Enter') {
+        var commentContent = document.getElementById('comment-input-' + postId).value;
+
+        if (commentContent.trim() !== '') {
+            // Send the comment to the server via AJAX
+            fetch('<?= base_url('post/comment') ?>', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'X-CSRF-TOKEN': '<?= csrf_hash() ?>', // CSRF protection
+                },
+                body: JSON.stringify({
+                    post_id: postId,
+                    comment_content: commentContent
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    // If comment is saved successfully, add it to the comments section
+                    var commentsList = document.getElementById('comments-list-' + postId);
+                    var newComment = document.createElement('div');
+                    newComment.classList.add('comment');
+                    newComment.innerHTML = `<strong><?= session()->get('username') ?>:</strong> <p>${commentContent}</p><small>Just now</small>`;
+                    commentsList.appendChild(newComment);
+                    
+                    // Clear the input and hide the comment section
+                    document.getElementById('comment-input-' + postId).value = '';
+                    toggleCommentSection(postId); // Hide comment section
+                } else {
+                    alert('Failed to post comment!');
+                }
+            })
+            .catch(error => console.error('Error:', error));
+        }
+    }
+}
+    </script>
 </body>
 </html>

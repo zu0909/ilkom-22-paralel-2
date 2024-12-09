@@ -45,6 +45,10 @@ $routes->get('notif/index', 'Notif::index');
 $routes->get('notif/markAsRead/(:num)', 'Notif::markAsRead/$1');
 $routes->get('notif/delete/(:num)', 'Notif::delete/$1');
 $routes->post('/post/create', 'PostController::create');
+$routes->get('post/like/(:num)', 'PostController::like/$1');
+$routes->post('post/comment', 'PostController::comment');
+$routes->get('post/share/(:num)', 'PostController::share/$1');
+
 
 // Rute 404
 $routes->set404Override(function () {

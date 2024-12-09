@@ -1,8 +1,11 @@
-<?php namespace App\Controllers;
+<?php 
+namespace App\Controllers;
 
 use CodeIgniter\Controller;
 use App\Models\UserModel;
 use App\Models\PostModel;
+use App\Models\LikeModel;
+use App\Models\CommentModel;
 
 class Auth extends Controller
 {
@@ -56,29 +59,48 @@ class Auth extends Controller
 
     public function dashboard()
     {
-        $model = new PostModel();
-        $posts = $model->select('posts.*, user.username') // Select fields from posts and username from users
+        // Instantiate PostModel
+        $postModel = new PostModel(); 
+        // Ambil posts dan join dengan tabel user untuk mendapatkan username
+        $posts = $postModel->select('posts.*, user.username') // Select fields from posts and username from users
             ->join('user', 'user.user_id = posts.user_id')  // Join users table on user_id
             ->findAll();
     
-        return view('auth/ds', ['posts' => $posts]);
-
-        $session = session();
-        if (!$session->get('isLoggedIn')) {
-        // Redirect hanya jika pengguna belum login
-         return redirect()->to('auth/login');
+        // Instantiate LikeModel
+        $likeModel = new LikeModel(); 
+        // Hitung jumlah like untuk setiap post
+        foreach ($posts as &$post) {
+            $post['like_count'] = $likeModel->where('post_id', $post['post_id'])->countAllResults();
+        }
+    
+        // Instantiate CommentModel
+        $commentModel = new CommentModel();
+        foreach ($posts as &$post) {
+            $post['comments'] = $commentModel->getComments($post['post_id']); // Fetch comments for each post
         }
 
+        // Add share link to each post
+        foreach ($posts as &$post) {
+            $post['share_link'] = base_url('post/view/' . $post['post_id']); // Assuming post_id is the unique identifier
+        }
+    
+        // Cek jika session sudah login
+        $session = session();
+        if (!$session->get('isLoggedIn')) {
+            // Redirect hanya jika pengguna belum login
+            return redirect()->to('auth/login');
+        }
+    
+        // Data session untuk username dan email
         $data = [
             'username' => $session->get('username'),
-            'email' => $session->get('email')
+            'email' => $session->get('email'),
+            'posts' => $posts // Pastikan posts dikirim ke view
         ];
-
+    
         return view('auth/ds', $data);
     }
-
-
-
+    
     public function notif()
     {
         // Data notifikasi (contoh statis, bisa diganti dengan data dari database)
