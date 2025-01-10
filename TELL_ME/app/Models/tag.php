@@ -1,4 +1,4 @@
- <?php
+<?php
     // Helper function to wrap mentions with a span tag code
     function highlightMentions($text) {
         // Regex pattern to detect mentions (e.g., @username)
